@@ -1,0 +1,36 @@
+{
+  "name": "licenses-conformance",
+  "version": "1.0.0",
+  "description": "Parse spdx license expressions into structured object",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeSecure/licenses-conformance.git"
+  },
+  "keywords": [
+    "spdx",
+    "licenses"
+  ],
+  "author": "NodeSecure",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeSecure/licenses-conformance/issues"
+  },
+  "types": "index.d.ts",
+  "homepage": "https://github.com/NodeSecure/licenses-conformance#readme",
+  "dependencies": {
+    "spdx-expression-parse": "^3.0.1"
+  },
+  "devDependencies": {
+    "@nodesecure/eslint-config": "^1.1.0",
+    "eslint": "^7.17.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
