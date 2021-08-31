@@ -1,10 +1,10 @@
 {
   "name": "licenses-conformance",
   "version": "1.0.0",
-  "description": "Parse spdx license expressions into structured object",
+  "description": "Check spdx license expressions",
   "main": "index.js",
   "scripts": {
-    "start": "node -r dotenv/config index.js",
+    "start": "node index.js",
     "lint": "eslint index.js"
   },
   "repository": {
