@@ -14,12 +14,12 @@ function checkSpdx(licenseToCheck) {
   return {
     osi: osi.includes(licenseToCheck),
     fsf: fsf.includes(licenseToCheck),
-    fsfAndOsi: OSI.includes(licenseToCheck) && FSF.includes(licenseToCheck),
+    fsfAndOsi: osi.includes(licenseToCheck) && fsf.includes(licenseToCheck),
     includesDeprecated: deprecated.includes(licenseToCheck)
   };
 }
 
-export default (licenseID, options = { throwOnError: false }) => {
+export default (licenseID) => {
   if (typeof licenseID !== "string") {
     throw new TypeError("expecter licenseID to be a strnig");
   }
@@ -27,20 +27,20 @@ export default (licenseID, options = { throwOnError: false }) => {
   try {
     const data = parseExpressions(licenseID);
 
-    return handleLicenseCase(data, licenseID, options);
+    return handleLicenseCase(data);
   }
   catch (err) {
     const data = {
       error: true,
-      errorMessage: `Passed license expression was not a valid license expression. Error from spdx-expression-parse: ${error}`
+      errorMessage: `Passed license expression was not a valid license expression. Error from spdx-expression-parse: ${err}`
     };
 
-    return handleLicenseCase(data, licenseID, options);
+    return handleLicenseCase(data);
   }
 };
 
-function handleLicenseCase(data, licenseID, options) {
-  if (data.error && options.throwOnError) {
+function handleLicenseCase(data) {
+  if (data.error) {
     throw new Error(data.errorMessage);
   }
 
