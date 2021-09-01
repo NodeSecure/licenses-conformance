@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint index.js"
+    "lint": "eslint index.js",
+    "test": "tape 'tests/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
   },
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.1.0",
-    "eslint": "^7.17.0"
+    "eslint": "^7.17.0",
+    "tape": "^5.3.1"
   },
   "engines": {
     "node": ">=16"
