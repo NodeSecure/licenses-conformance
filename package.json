@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/NodeSecure/licenses-conformance.git"
   },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "licenses.js"
+  ],
   "keywords": [
     "spdx",
     "licenses"
