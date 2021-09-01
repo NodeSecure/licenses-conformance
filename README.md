@@ -14,6 +14,8 @@ NodeSecure security flags.
 
 This package is available in the Node Package Repository and can be easily installed with [npm](https://docs.npmjs.com/getting-started/what-is-npm) or [yarn](https://yarnpkg.com).
 
+This repository is inspired by [cutenode/conformance](https://github.com/cutenode/conformance.git)
+
 ```bash
 $ npm i @nodesecure/licenses-conformance
 # or
@@ -55,7 +57,6 @@ See TypeScript definition file.
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
