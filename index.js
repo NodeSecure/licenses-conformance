@@ -1,23 +1,6 @@
 /* eslint-disable max-len */
 import parseExpressions from "spdx-expression-parse";
-import { osi, fsf, deprecated } from "./licenses.js";
-
-function checkEveryTruthy(...arrayOfBooleans) {
-  return arrayOfBooleans.every((check) => check);
-}
-
-function checkSomeTruthy(...arrayOfBooleans) {
-  return arrayOfBooleans.some((check) => check);
-}
-
-function checkSpdx(licenseToCheck) {
-  return {
-    osi: osi.includes(licenseToCheck),
-    fsf: fsf.includes(licenseToCheck),
-    fsfAndOsi: osi.includes(licenseToCheck) && fsf.includes(licenseToCheck),
-    includesDeprecated: deprecated.includes(licenseToCheck)
-  };
-}
+import { checkSpdx, checkEveryTruthy, checkSomeTruthy } from "./src/utils.js";
 
 export default (licenseID) => {
   if (typeof licenseID !== "string") {
