@@ -1,6 +1,8 @@
+// Import Third-party Dependencies
 import test from "tape";
-import { checkEveryTruthy, checkSomeTruthy, checkSpdx } from "../src/utils.js";
 
+// Import Internal Dependencies
+import { checkEveryTruthy, checkSomeTruthy, checkSpdx, createSpdxLink } from "../src/utils.js";
 
 // Check everytruthy
 test("check a single true is true", (tape) => {
@@ -41,6 +43,13 @@ test("check that a single false is false", (tape) => {
 
 test("ensure that one false will result in a true return", (tape) => {
   tape.same(checkSomeTruthy(true, false), true);
+  tape.end();
+});
+
+test("create an MIT SPDX link", (tape) => {
+  const link = createSpdxLink("MIT");
+
+  tape.strictEqual(link, "https://spdx.org/licenses/MIT.html#licenseText");
   tape.end();
 });
 
