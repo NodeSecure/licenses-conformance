@@ -1,4 +1,7 @@
+// Import Third-party Dependencies
 import test from "tape";
+
+// Import Internal Dependencies
 import licenseConformance from "../index.js";
 
 test("check the output of MIT license", (tape) => {

@@ -1,6 +1,8 @@
-/* eslint-disable max-len */
+// Import Third-party Dependencies
 import parseExpressions from "spdx-expression-parse";
-import { checkSpdx, checkEveryTruthy, checkSomeTruthy } from "./src/utils.js";
+
+// Import Internal Dependencies
+import { checkSpdx, checkEveryTruthy, checkSomeTruthy, createSpdxLink } from "./src/utils.js";
 
 export default (licenseID) => {
   if (typeof licenseID !== "string") {
@@ -43,7 +45,7 @@ function handleLicenseCase(data) {
     licenses.spdx = spdxCheck;
 
     licenses.uniqueLicenseIds.push(data.license);
-    licenses.spdxLicenseLinks.push(`https://spdx.org/licenses/${data.license}.html#licenseText`);
+    licenses.spdxLicenseLinks.push(createSpdxLink(data.license));
   }
   else if (typeof data.right.license === "string") {
     const spdxCheckLeft = checkSpdx(data.left.license);
@@ -60,8 +62,8 @@ function handleLicenseCase(data) {
     );
 
     licenses.spdxLicenseLinks.push(
-      `https://spdx.org/licenses/${data.left.license}.html#licenseText`,
-      `https://spdx.org/licenses/${data.right.license}.html#licenseText`
+      createSpdxLink(data.left.license),
+      createSpdxLink(data.right.license)
     );
   }
   else if (typeof data.right.left.license === "string") {
@@ -81,9 +83,9 @@ function handleLicenseCase(data) {
     );
 
     licenses.spdxLicenseLinks.push(
-      `https://spdx.org/licenses/${data.left.license}.html#licenseText`,
-      `https://spdx.org/licenses/${data.right.left.license}.html#licenseText`,
-      `https://spdx.org/licenses/${data.right.right.license}.html#licenseText`
+      createSpdxLink(data.left.license),
+      createSpdxLink(data.right.left.license),
+      createSpdxLink(data.right.right.license)
     );
   }
 
