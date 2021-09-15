@@ -73,8 +73,10 @@ function handleLicenseCase(data) {
 
     licenses.spdx.osi = checkEveryTruthy(spdxCheckLeft.osi, spdxCheckRightLeft.osi, spdxCheckRightRight.osi);
     licenses.spdx.fsf = checkEveryTruthy(spdxCheckLeft.fsf, spdxCheckRightLeft.fsf, spdxCheckRightRight.fsf);
-    licenses.spdx.fsfAndOsi = checkEveryTruthy(spdxCheckLeft.fsfAndOsi, spdxCheckRightLeft.fsfAndOsi, spdxCheckRightRight.fsfAndOsi);
-    licenses.spdx.includesDeprecated = checkSomeTruthy(spdxCheckLeft.includesDeprecated, spdxCheckRightLeft.includesDeprecated, spdxCheckRightRight.includesDeprecated);
+    licenses.spdx.fsfAndOsi = checkEveryTruthy(
+      spdxCheckLeft.fsfAndOsi, spdxCheckRightLeft.fsfAndOsi, spdxCheckRightRight.fsfAndOsi);
+    licenses.spdx.includesDeprecated = checkSomeTruthy(
+      spdxCheckLeft.includesDeprecated, spdxCheckRightLeft.includesDeprecated, spdxCheckRightRight.includesDeprecated);
 
     licenses.uniqueLicenseIds.push(
       data.left.license,
