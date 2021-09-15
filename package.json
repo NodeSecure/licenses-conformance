@@ -23,7 +23,7 @@
   ],
   "author": "NodeSecure",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NodeSecure/licenses-conformance/issues"
   },
