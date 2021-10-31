@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint index.js",
-    "test": "cross-env esm-tape-runner 'tests/**/*.test.js' | tap-monkey",
+    "test-only": "cross-env esm-tape-runner 'tests/**/*.test.js' | tap-monkey",
+    "test": "npm run lint && npm run test-only",
     "coverage": "c8 -r html npm test"
   },
   "repository": {
