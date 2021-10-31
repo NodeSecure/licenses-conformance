@@ -46,7 +46,8 @@ const errorLicense = licenseConformance("notalicense");
 /*
 should throw an Error like
 
-Passed license expression was not a valid license expression. Error from spdx-expression-parse: Error: `u` at offset 0
+Passed license expression was not a valid license expression.
+Error from spdx-expression-parse: Error: `u` at offset 0
 */
 ```
 
