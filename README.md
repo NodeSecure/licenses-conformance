@@ -4,7 +4,7 @@
 [![OpenSSF
 Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance/badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance)
 [![mit](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/NodeSecure/flags/blob/master/LICENSE)
-![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/licenses-conformance/node.js.yml)
+![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/licenses-conformance/main.yml)
 
 NodeSecure licenses conformance.
 
