@@ -32,7 +32,9 @@
   "types": "index.d.ts",
   "homepage": "https://github.com/NodeSecure/licenses-conformance#readme",
   "dependencies": {
-    "spdx-expression-parse": "^3.0.1"
+    "fastest-levenshtein": "^1.0.16",
+    "spdx-expression-parse": "^3.0.1",
+    "spdx-license-ids": "^3.0.12"
   },
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.5.0",

@@ -2,6 +2,7 @@
 import parseExpressions from "spdx-expression-parse";
 
 // Import Internal Dependencies
+import { spdxLicenses, closestSpdxLicenses } from "./src/licenses.js";
 import { checkSpdx, checkEveryTruthy, checkSomeTruthy, createSpdxLink } from "./src/utils.js";
 
 export default (licenseID) => {
@@ -9,20 +10,26 @@ export default (licenseID) => {
     throw new TypeError("expecter licenseID to be a strnig");
   }
 
+  const closestLicenseId = handleLicenseId(licenseID);
   try {
-    const data = parseExpressions(licenseID);
+    const data = parseExpressions(closestLicenseId);
 
     return handleLicenseCase(data);
   }
   catch (err) {
     const data = {
       error: true,
-      errorMessage: `Passed license expression was not a valid license expression. Error from spdx-expression-parse: ${err}`
+      // eslint-disable-next-line max-len
+      errorMessage: `Passed license expression '${closestLicenseId}' was not a valid license expression. Error from spdx-expression-parse: ${err}`
     };
 
     return handleLicenseCase(data);
   }
 };
+
+function handleLicenseId(licenseID) {
+  return spdxLicenses.has(licenseID) ? licenseID : closestSpdxLicenses(licenseID);
+}
 
 function handleLicenseCase(data) {
   if (data.error) {

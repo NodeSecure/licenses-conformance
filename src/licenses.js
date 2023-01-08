@@ -1,3 +1,12 @@
+// Import Third-party Dependencies
+import * as levenshtein from "fastest-levenshtein";
+
+// CONSTANTS
+const kMaximumLicenseDistance = 1;
+const kFixedLicenseIds = new Map([
+  ["Apache", "Apache-2.0"]
+]);
+
 export const osi = [
   "ZPL-2.0",
   "Zlib",
@@ -249,3 +258,29 @@ export const deprecated = [
   "eCos-2.0",
   "wxWindows"
 ];
+
+export const spdxLicenses = new Set([
+  ...deprecated,
+  ...fsf,
+  ...osi
+]);
+
+/**
+ * @param {!string} licenseID
+ */
+export function closestSpdxLicenses(licenseID) {
+  if (kFixedLicenseIds.has(licenseID)) {
+    return kFixedLicenseIds.get(licenseID);
+  }
+
+  for (const iteratedLicenseId of spdxLicenses) {
+    const distance = levenshtein.distance(licenseID, iteratedLicenseId);
+    if (distance <= kMaximumLicenseDistance) {
+      kFixedLicenseIds.set(licenseID, iteratedLicenseId);
+
+      return iteratedLicenseId;
+    }
+  }
+
+  return licenseID;
+}

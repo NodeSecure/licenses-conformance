@@ -21,6 +21,40 @@ test("check the output of MIT license", (tape) => {
   tape.end();
 });
 
+test("check the output of Apache license (it should convert Apache to Apache-2.0)", (tape) => {
+  const mitLicense = licenseConformance("Apache");
+  tape.same(mitLicense,
+    {
+      uniqueLicenseIds: ["Apache-2.0"],
+      spdxLicenseLinks: ["https://spdx.org/licenses/Apache-2.0.html#licenseText"],
+      spdx: {
+        osi: true,
+        fsf: true,
+        fsfAndOsi: true,
+        includesDeprecated: false
+      }
+    }
+  );
+  tape.end();
+});
+
+test("check the output of BSD 3-Clause license (missing hyphen)", (tape) => {
+  const mitLicense = licenseConformance("BSD 3-Clause");
+  tape.same(mitLicense,
+    {
+      uniqueLicenseIds: ["BSD-3-Clause"],
+      spdxLicenseLinks: ["https://spdx.org/licenses/BSD-3-Clause.html#licenseText"],
+      spdx: {
+        osi: true,
+        fsf: true,
+        fsfAndOsi: true,
+        includesDeprecated: false
+      }
+    }
+  );
+  tape.end();
+});
+
 test("check deprecated license cases", (tape) => {
   const deprecatedLicense = licenseConformance("AGPL-1.0");
   tape.same(deprecatedLicense, {
@@ -91,7 +125,7 @@ test("check license that should throw an Error", (tape) => {
   }
   catch (err) {
     // eslint-disable-next-line max-len
-    tape.ok(err, "Passed license expression was not a valid license expression. Error from spdx-expression-parse: Error: `u` at offset 0");
+    tape.ok(err, "Passed license expression 'unreallicense' was not a valid license expression. Error from spdx-expression-parse: Error: `u` at offset 0");
   }
   tape.end();
 });
