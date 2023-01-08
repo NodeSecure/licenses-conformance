@@ -268,7 +268,7 @@ export const spdxLicenses = new Set([
 /**
  * @param {!string} licenseID
  */
-export function closestSpdxLicenses(licenseID) {
+export function closestSpdxLicenseID(licenseID) {
   if (kFixedLicenseIds.has(licenseID)) {
     return kFixedLicenseIds.get(licenseID);
   }
