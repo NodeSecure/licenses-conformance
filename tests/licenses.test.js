@@ -20,7 +20,7 @@ test("it should fix 'BSD 3-Clause' to 'BSD-3-Clause'", (tape) => {
   tape.end();
 });
 
-test("it not should fix 'BSD 3 Clause' because the distance is greater than one", (tape) => {
+test("it should not fix 'BSD 3 Clause' because the distance is greater than one", (tape) => {
   tape.same(closestSpdxLicenseID("BSD 3 Clause"), "BSD 3 Clause");
   tape.end();
 });
