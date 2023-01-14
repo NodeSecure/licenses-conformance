@@ -8,7 +8,8 @@
     "lint": "eslint index.js",
     "test-only": "cross-env esm-tape-runner 'tests/**/*.test.js' | tap-monkey",
     "test": "npm run lint && npm run test-only",
-    "coverage": "c8 -r html npm test"
+    "coverage": "c8 -r html npm test",
+    "spdx:refresh": "node ./scripts/fetchSpdxLicenses.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "spdx-expression-parse": "^3.0.1"
   },
   "devDependencies": {
+    "@myunisoft/httpie": "^1.10.0",
     "@nodesecure/eslint-config": "^1.6.0",
     "@small-tech/esm-tape-runner": "^2.0.0",
     "@small-tech/tap-monkey": "^1.4.0",

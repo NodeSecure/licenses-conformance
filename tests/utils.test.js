@@ -69,7 +69,7 @@ test("test with a deprecated license", (tape) => {
   const deprecatedLicense = checkSpdx("AGPL-1.0");
   tape.same(deprecatedLicense, {
     osi: false,
-    fsf: false,
+    fsf: true,
     fsfAndOsi: false,
     includesDeprecated: true
   });

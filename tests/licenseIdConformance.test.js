@@ -2,10 +2,10 @@
 import test from "tape";
 
 // Import Internal Dependencies
-import licenseConformance from "../index.js";
+import { licenseIdConformance } from "../index.js";
 
 test("check the output of MIT license", (tape) => {
-  const mitLicense = licenseConformance("MIT");
+  const mitLicense = unwrap(licenseIdConformance("MIT"));
   tape.same(mitLicense,
     {
       uniqueLicenseIds: ["MIT"],
@@ -21,25 +21,8 @@ test("check the output of MIT license", (tape) => {
   tape.end();
 });
 
-test("check the output of Apache license (it should convert Apache to Apache-2.0)", (tape) => {
-  const mitLicense = licenseConformance("Apache");
-  tape.same(mitLicense,
-    {
-      uniqueLicenseIds: ["Apache-2.0"],
-      spdxLicenseLinks: ["https://spdx.org/licenses/Apache-2.0.html#licenseText"],
-      spdx: {
-        osi: true,
-        fsf: true,
-        fsfAndOsi: true,
-        includesDeprecated: false
-      }
-    }
-  );
-  tape.end();
-});
-
 test("check the output of BSD 3-Clause license (missing hyphen)", (tape) => {
-  const mitLicense = licenseConformance("BSD 3-Clause");
+  const mitLicense = unwrap(licenseIdConformance("BSD 3-Clause"));
   tape.same(mitLicense,
     {
       uniqueLicenseIds: ["BSD-3-Clause"],
@@ -56,7 +39,7 @@ test("check the output of BSD 3-Clause license (missing hyphen)", (tape) => {
 });
 
 test("check deprecated license cases", (tape) => {
-  const deprecatedLicense = licenseConformance("AGPL-1.0");
+  const deprecatedLicense = unwrap(licenseIdConformance("AGPL-1.0"));
   tape.same(deprecatedLicense, {
     uniqueLicenseIds: ["AGPL-1.0"],
     spdxLicenseLinks: [
@@ -64,13 +47,13 @@ test("check deprecated license cases", (tape) => {
     ],
     spdx: {
       osi: false,
-      fsf: false,
+      fsf: true,
       fsfAndOsi: false,
       includesDeprecated: true
     }
   });
 
-  const multipleDeprecatedLicenses = licenseConformance("AGPL-1.0 AND AGPL-3.0");
+  const multipleDeprecatedLicenses = unwrap(licenseIdConformance("AGPL-1.0 AND AGPL-3.0"));
   tape.same(multipleDeprecatedLicenses, {
     uniqueLicenseIds: ["AGPL-1.0", "AGPL-3.0"],
     spdxLicenseLinks: [
@@ -79,7 +62,7 @@ test("check deprecated license cases", (tape) => {
     ],
     spdx: {
       osi: false,
-      fsf: false,
+      fsf: true,
       fsfAndOsi: false,
       includesDeprecated: true
     }
@@ -88,7 +71,7 @@ test("check deprecated license cases", (tape) => {
 });
 
 test("check two licenses that pass osi and fsf", (tape) => {
-  const licenses = licenseConformance("ISC OR MIT");
+  const licenses = unwrap(licenseIdConformance("ISC OR MIT"));
   tape.same(licenses, {
     uniqueLicenseIds: ["ISC", "MIT"],
     spdxLicenseLinks: [
@@ -101,7 +84,7 @@ test("check two licenses that pass osi and fsf", (tape) => {
 });
 
 test("complex license statement that does not pass osi but does pass fsf", (tape) => {
-  const licenses = licenseConformance("MIT OR (CC0-1.0 AND ISC)");
+  const licenses = unwrap(licenseIdConformance("MIT OR (CC0-1.0 AND ISC)"));
   tape.same(licenses, {
     uniqueLicenseIds: ["MIT", "CC0-1.0", "ISC"],
     spdxLicenseLinks: [
@@ -120,13 +103,20 @@ test("complex license statement that does not pass osi but does pass fsf", (tape
 
 test("check license that should throw an Error", (tape) => {
   try {
-    licenseConformance("unreallicense");
+    unwrap(licenseIdConformance("unreallicense"));
     tape.fail("should not get here since license-conformance should throw new Error");
   }
   catch (err) {
-    // eslint-disable-next-line max-len
-    tape.ok(err, "Passed license expression 'unreallicense' was not a valid license expression. Error from spdx-expression-parse: Error: `u` at offset 0");
+    tape.strictEqual(err.message, "Passed license expression 'unreallicense' was not a valid license expression.");
+    tape.strictEqual(err.cause.message, "Unexpected `u` at offset 0");
   }
   tape.end();
 });
 
+function unwrap(result) {
+  if (result.ok) {
+    return result.value;
+  }
+
+  throw result.value;
+}

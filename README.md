@@ -1,12 +1,12 @@
-# NodeSecure Licenses conformance
-![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/NodeSecure/flags/master/package.json&query=$.version&label=Version)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/NodeSecure/flags/commit-activity)
+# SPDX Licenses conformance
+![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/flags/master/package.json&query=$.version&label=Version)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/NodeSecure/flags/commit-activity)
 [![OpenSSF
-Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance/badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance)
-[![mit](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/NodeSecure/flags/blob/master/LICENSE)
-![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/licenses-conformance/main.yml)
+Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance/badge?style=for-the-badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance)
+[![mit](https://img.shields.io/github/license/Naereen/StrapDown.js.svg?style=for-the-badge)](https://github.com/NodeSecure/flags/blob/master/LICENSE)
+![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/licenses-conformance/main.yml?style=for-the-badge)
 
-NodeSecure licenses conformance.
+NodeSecure [SPDX licenses](https://spdx.org/licenses/) conformance. Project forked/inspired from [cutenode/conformance](https://github.com/cutenode/conformance.git).
 
 ## Requirements
 - [Node.js](https://nodejs.org/en/) v16 or higher
@@ -26,9 +26,12 @@ $ yarn add @nodesecure/licenses-conformance
 ## Usage example
 
 ```js
-import conformance from "@nodesecure/licenses-conformance";
+import { licenseIdConformance } from "@nodesecure/licenses-conformance";
 
-const mitLicense = licenseConformance("MIT");
+const result = licenseIdConformance("MIT");
+if (result.ok) {
+  console.log(result.value);
+}
 /*  
   {
     uniqueLicenseIds: ["MIT"],
@@ -41,20 +44,37 @@ const mitLicense = licenseConformance("MIT");
     }
   }
 */
-
-const errorLicense = licenseConformance("notalicense");
-/*
-should throw an Error like
-
-Passed license expression was not a valid license expression.
-Error from spdx-expression-parse: Error: `u` at offset 0
-*/
 ```
 
 ## API
 
-See TypeScript definition file.
+```ts
+interface spdxLicenseConformance {
+  uniqueLicenseIds: string[];
+  spdxLicenseLinks: string[];
+  spdx?: {
+    osi: boolean;
+    fsf: boolean;
+    fsfAndOsi: boolean;
+    includesDeprecated: boolean;
+  };
+}
 
+function licenseIdConformance(
+  licenseID: string
+): { ok: true, value: spdxLicenseConformance } | { ok: false, value: Error };
+
+function searchSpdxLicenseId(contentStr: string): string | null;
+```
+
+## Updating SPDX licenses
+To update the `src/spdx.json` file just run the following npm script:
+
+```bash
+$ npm run spdx:refresh
+```
+
+It will fetch SPDX licenses [here](https://github.com/spdx/license-list-data/blob/main/json/licenses.json).
 
 ## Contributors ✨
 
@@ -81,4 +101,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 ## License
 MIT
-This repository is inspired by [cutenode/conformance](https://github.com/cutenode/conformance.git)
