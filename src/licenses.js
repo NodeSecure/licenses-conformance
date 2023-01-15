@@ -12,6 +12,7 @@ const spdx = JSON.parse(
 const kMaximumLicenseDistance = 1;
 const kLevenshteinCache = new Map();
 
+/** @type {Map<string, string>} */
 const licenseNameToId = new Map();
 const osi = [];
 const fsf = [];

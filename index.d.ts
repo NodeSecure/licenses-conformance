@@ -21,4 +21,4 @@ declare function licenseIdConformance(
 
 declare function searchSpdxLicenseId(
   contentStr: string
-): string | null;
+): Promise<string | null>;
