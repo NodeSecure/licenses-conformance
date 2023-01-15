@@ -1,6 +1,6 @@
 {
   "name": "@nodesecure/licenses-conformance",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Check spdx license expressions",
   "main": "index.js",
   "scripts": {
