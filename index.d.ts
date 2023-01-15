@@ -1,8 +1,10 @@
-export interface complianceOptions {
-  throwOnError: boolean;
+export {
+  licenseIdConformance,
+  searchSpdxLicenseId,
+  spdxLicenseConformance
 }
 
-export interface license {
+interface spdxLicenseConformance {
   uniqueLicenseIds: string[];
   spdxLicenseLinks: string[];
   spdx?: {
@@ -13,9 +15,10 @@ export interface license {
   };
 }
 
-export interface licenseError {
-  license: string;
-  error: string;
-}
+declare function licenseIdConformance(
+  licenseID: string
+): { ok: true, value: spdxLicenseConformance } | { ok: false, value: Error };
 
-export declare function compliance(licenseID: string, options: complianceOptions): Promise<license | licenseError>
+declare function searchSpdxLicenseId(
+  contentStr: string
+): string | null;

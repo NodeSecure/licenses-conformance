@@ -2,37 +2,46 @@
 import parseExpressions from "spdx-expression-parse";
 
 // Import Internal Dependencies
-import { spdxLicenses, closestSpdxLicenseID } from "./src/licenses.js";
+import { spdxLicenseIds, licenseNameToId, closestSpdxLicenseID } from "./src/licenses.js";
 import { checkSpdx, checkEveryTruthy, checkSomeTruthy, createSpdxLink } from "./src/utils.js";
 
-export default (licenseID) => {
+export function licenseIdConformance(licenseID) {
   if (typeof licenseID !== "string") {
     throw new TypeError("expecter licenseID to be a strnig");
   }
 
-  const closestLicenseID = spdxLicenses.has(licenseID) ?
+  const closestLicenseID = spdxLicenseIds.has(licenseID) ?
     licenseID : closestSpdxLicenseID(licenseID);
   try {
     const data = parseExpressions(closestLicenseID);
+    const licenses = handleLicenseCase(data);
 
-    return handleLicenseCase(data);
+    return {
+      ok: true,
+      value: licenses
+    };
   }
   catch (err) {
-    const data = {
-      error: true,
-      // eslint-disable-next-line max-len
-      errorMessage: `Passed license expression '${closestLicenseID}' was not a valid license expression. Error from spdx-expression-parse: ${err}`
+    return {
+      ok: false,
+      value: new Error(`Passed license expression '${closestLicenseID}' was not a valid license expression.`, {
+        cause: err
+      })
     };
-
-    return handleLicenseCase(data);
   }
-};
+}
+
+export function searchSpdxLicenseId(contentStr) {
+  for (const [licenseName, license] of licenseNameToId) {
+    if (contentStr.indexOf(licenseName) > -1) {
+      return license.id;
+    }
+  }
+
+  return null;
+}
 
 function handleLicenseCase(data) {
-  if (data.error) {
-    throw new Error(data.errorMessage);
-  }
-
   const licenses = {
     uniqueLicenseIds: [],
     spdxLicenseLinks: [],
