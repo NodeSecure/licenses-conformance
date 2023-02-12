@@ -12,7 +12,7 @@ const spdx = JSON.parse(
 const kMaximumLicenseDistance = 1;
 const kLevenshteinCache = new Map();
 
-/** @type {Map<string, string>} */
+/** @type {Map<string, any>} */
 const licenseNameToId = new Map();
 const osi = [];
 const fsf = [];
@@ -28,7 +28,13 @@ for (const [licenseName, license] of Object.entries(spdx)) {
   if (license.fsf) {
     fsf.push(license.id);
   }
-  licenseNameToId.set(licenseName, license);
+
+  const [version = null] = /([v]?[0-9]+.[0-9]+)/gm.exec(licenseName) ?? [];
+  licenseNameToId.set(licenseName, {
+    name: version === null ? licenseName : licenseName.replace(version, "").trimEnd(),
+    ...license,
+    version
+  });
 }
 
 const spdxLicenseIds = new Set([

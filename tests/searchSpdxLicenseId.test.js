@@ -22,7 +22,10 @@ test("it should find and parse licenses ID for all fixtures files", async(tape) 
       path.join(licensesDir, dirent.name)
     );
 
-    console.log(licenseID, dirent.name);
+    if (licenseID !== dirent.name) {
+      console.log(licenseID, dirent.name);
+      console.log("\n-----------------------\n");
+    }
     // tape.same(licenseID, dirent.name);
   }
 

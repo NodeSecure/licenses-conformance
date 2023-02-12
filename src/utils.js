@@ -39,6 +39,9 @@ export async function readLicense(destination) {
     let lineCount = 0;
 
     for await (const line of handle.readLines()) {
+      if (line.trim() === "") {
+        continue;
+      }
       contentStr += line;
       if (++lineCount === kMaxLicenseLineToRead) {
         break;

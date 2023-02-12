@@ -3,6 +3,7 @@ import parseExpressions from "spdx-expression-parse";
 
 // Import Internal Dependencies
 import { spdxLicenseIds, licenseNameToId, closestSpdxLicenseID } from "./src/licenses.js";
+import { LicenseDetector } from "./src/licenseDetector.js";
 import {
   checkSpdx, checkEveryTruthy, checkSomeTruthy, createSpdxLink, readLicense
 } from "./src/utils.js";
@@ -36,25 +37,8 @@ export function licenseIdConformance(licenseID) {
 export async function searchSpdxLicenseId(destination) {
   const contentStr = await readLicense(destination);
 
-  for (const [licenseName, license] of licenseNameToId) {
-    const expr = escapeRegExp(licenseName)
-      .split(" ")
-      .join(String.raw`[\s\S\r\n]+`);
-
-    if (new RegExp(expr, "gm").test(contentStr)) {
-      return license.id;
-    }
-  }
-
-  return null;
-}
-
-/**
- * @param {!string} string
- * @returns {string}
- */
-function escapeRegExp(string) {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new LicenseDetector()
+    .detectFromString(contentStr);
 }
 
 function handleLicenseCase(data) {
