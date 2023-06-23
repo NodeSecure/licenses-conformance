@@ -3,7 +3,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/NodeSecure/licenses-conformance/graphs/commit-activity)
 [![OpenSSF
 Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance/badge?style=for-the-badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/licenses-conformance)
-[![mit](https://img.shields.io/github/license/Naereen/StrapDown.js.svg?style=for-the-badge)](https://github.com/NodeSecure/licenses-conformance/blob/master/LICENSE)
+[![mit](https://img.shields.io/github/license/NodeSecure/licenses-conformance.svg?style=for-the-badge)](https://github.com/NodeSecure/licenses-conformance/blob/master/LICENSE)
 ![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/licenses-conformance/main.yml?style=for-the-badge)
 
 NodeSecure [SPDX licenses](https://spdx.org/licenses/) conformance. Project forked/inspired from [cutenode/conformance](https://github.com/cutenode/conformance.git).
