@@ -1,4 +1,5 @@
 # SPDX Licenses conformance
+
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/licenses-conformance/master/package.json&query=$.version&label=Version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/NodeSecure/licenses-conformance/graphs/commit-activity)
 [![OpenSSF
@@ -9,7 +10,8 @@ Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/lic
 NodeSecure [SPDX licenses](https://spdx.org/licenses/) conformance. Project forked/inspired from [cutenode/conformance](https://github.com/cutenode/conformance.git).
 
 ## Requirements
-- [Node.js](https://nodejs.org/en/) v16 or higher
+
+- [Node.js](https://nodejs.org/en/) v18 or higher
 
 ## Getting Started
 
@@ -68,6 +70,7 @@ function searchSpdxLicenseId(contentStr: string): string | null;
 ```
 
 ## Updating SPDX licenses
+
 To update the `src/spdx.json` file just run the following npm script:
 
 ```bash
@@ -79,7 +82,9 @@ It will fetch SPDX licenses [here](https://github.com/spdx/license-list-data/blo
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -103,4 +108,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
+
 MIT
