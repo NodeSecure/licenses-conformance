@@ -3,7 +3,10 @@ import parseExpressions from "spdx-expression-parse";
 
 // Import Internal Dependencies
 import { spdxLicenseIds, licenseNameToId, closestSpdxLicenseID } from "./src/licenses.js";
-import { checkSpdx, checkEveryTruthy, checkSomeTruthy, createSpdxLink } from "./src/utils.js";
+import { LicenseDetector } from "./src/licenseDetector.js";
+import {
+  checkSpdx, checkEveryTruthy, checkSomeTruthy, createSpdxLink, readLicense
+} from "./src/utils.js";
 
 export function licenseIdConformance(licenseID) {
   if (typeof licenseID !== "string") {
@@ -31,14 +34,11 @@ export function licenseIdConformance(licenseID) {
   }
 }
 
-export function searchSpdxLicenseId(contentStr) {
-  for (const [licenseName, license] of licenseNameToId) {
-    if (contentStr.indexOf(licenseName) > -1) {
-      return license.id;
-    }
-  }
+export async function searchSpdxLicenseId(destination) {
+  const contentStr = await readLicense(destination);
 
-  return null;
+  return new LicenseDetector()
+    .detectFromString(contentStr);
 }
 
 function handleLicenseCase(data) {

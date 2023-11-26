@@ -33,6 +33,7 @@
   "types": "index.d.ts",
   "homepage": "https://github.com/NodeSecure/licenses-conformance#readme",
   "dependencies": {
+    "@openally/result": "^1.0.0",
     "fastest-levenshtein": "^1.0.16",
     "spdx-expression-parse": "^3.0.1"
   },
