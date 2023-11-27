@@ -1,2984 +1,4246 @@
+/* eslint-disable max-lines */
+
 export const spdx = {
-  "BSD Zero Clause License": {
+  "0BSD": {
+    name: "BSD Zero Clause License",
     id: "0BSD",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Attribution Assurance License": {
+  AAL: {
+    name: "Attribution Assurance License",
     id: "AAL",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Abstyles License": {
+  Abstyles: {
+    name: "Abstyles License",
     id: "Abstyles",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Adobe Systems Incorporated Source Code License Agreement": {
+  "AdaCore-doc": {
+    name: "AdaCore Doc License",
+    id: "AdaCore-doc",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Adobe-2006": {
+    name: "Adobe Systems Incorporated Source Code License Agreement",
     id: "Adobe-2006",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Adobe Glyph List License": {
+  "Adobe-Display-PostScript": {
+    name: "Adobe Display PostScript License",
+    id: "Adobe-Display-PostScript",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Adobe-Glyph": {
+    name: "Adobe Glyph List License",
     id: "Adobe-Glyph",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Amazon Digital Services License": {
+  "Adobe-Utopia": {
+    name: "Adobe Utopia Font License",
+    id: "Adobe-Utopia",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  ADSL: {
+    name: "Amazon Digital Services License",
     id: "ADSL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Academic Free License v1.1": {
+  "AFL-1.1": {
+    name: "Academic Free License v1.1",
     id: "AFL-1.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Academic Free License v1.2": {
+  "AFL-1.2": {
+    name: "Academic Free License v1.2",
     id: "AFL-1.2",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Academic Free License v2.0": {
+  "AFL-2.0": {
+    name: "Academic Free License v2.0",
     id: "AFL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Academic Free License v2.1": {
+  "AFL-2.1": {
+    name: "Academic Free License v2.1",
     id: "AFL-2.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Academic Free License v3.0": {
+  "AFL-3.0": {
+    name: "Academic Free License v3.0",
     id: "AFL-3.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Afmparse License": {
+  Afmparse: {
+    name: "Afmparse License",
     id: "Afmparse",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Affero General Public License v1.0": {
+  "AGPL-1.0": {
+    name: "Affero General Public License v1.0",
     id: "AGPL-1.0",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "Affero General Public License v1.0 only": {
+  "AGPL-1.0-only": {
+    name: "Affero General Public License v1.0 only",
     id: "AGPL-1.0-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Affero General Public License v1.0 or later": {
+  "AGPL-1.0-or-later": {
+    name: "Affero General Public License v1.0 or later",
     id: "AGPL-1.0-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Affero General Public License v3.0": {
+  "AGPL-3.0": {
+    name: "GNU Affero General Public License v3.0",
     id: "AGPL-3.0",
     deprecated: true,
     osi: true,
     fsf: true
   },
-  "GNU Affero General Public License v3.0 only": {
+  "AGPL-3.0-only": {
+    name: "GNU Affero General Public License v3.0 only",
     id: "AGPL-3.0-only",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU Affero General Public License v3.0 or later": {
+  "AGPL-3.0-or-later": {
+    name: "GNU Affero General Public License v3.0 or later",
     id: "AGPL-3.0-or-later",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Aladdin Free Public License": {
+  Aladdin: {
+    name: "Aladdin Free Public License",
     id: "Aladdin",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "AMD's plpa_map.c License": {
+  AMDPLPA: {
+    name: "AMD's plpa_map.c License",
     id: "AMDPLPA",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Apple MIT License": {
+  AML: {
+    name: "Apple MIT License",
     id: "AML",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Academy of Motion Picture Arts and Sciences BSD": {
+  "AML-glslang": {
+    name: "AML glslang variant License",
+    id: "AML-glslang",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  AMPAS: {
+    name: "Academy of Motion Picture Arts and Sciences BSD",
     id: "AMPAS",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "ANTLR Software Rights Notice": {
+  "ANTLR-PD": {
+    name: "ANTLR Software Rights Notice",
     id: "ANTLR-PD",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "ANTLR Software Rights Notice with license fallback": {
+  "ANTLR-PD-fallback": {
+    name: "ANTLR Software Rights Notice with license fallback",
     id: "ANTLR-PD-fallback",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Apache License 1.0": {
+  "Apache-1.0": {
+    name: "Apache License 1.0",
     id: "Apache-1.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Apache License 1.1": {
+  "Apache-1.1": {
+    name: "Apache License 1.1",
     id: "Apache-1.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Apache License 2.0": {
+  "Apache-2.0": {
+    name: "Apache License 2.0",
     id: "Apache-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Adobe Postscript AFM License": {
+  APAFML: {
+    name: "Adobe Postscript AFM License",
     id: "APAFML",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Adaptive Public License 1.0": {
+  "APL-1.0": {
+    name: "Adaptive Public License 1.0",
     id: "APL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "App::s2p License": {
+  "App-s2p": {
+    name: "App::s2p License",
     id: "App-s2p",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Apple Public Source License 1.0": {
+  "APSL-1.0": {
+    name: "Apple Public Source License 1.0",
     id: "APSL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Apple Public Source License 1.1": {
+  "APSL-1.1": {
+    name: "Apple Public Source License 1.1",
     id: "APSL-1.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Apple Public Source License 1.2": {
+  "APSL-1.2": {
+    name: "Apple Public Source License 1.2",
     id: "APSL-1.2",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Apple Public Source License 2.0": {
+  "APSL-2.0": {
+    name: "Apple Public Source License 2.0",
     id: "APSL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Arphic Public License": {
+  "Arphic-1999": {
+    name: "Arphic Public License",
     id: "Arphic-1999",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Artistic License 1.0": {
+  "Artistic-1.0": {
+    name: "Artistic License 1.0",
     id: "Artistic-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Artistic License 1.0 w/clause 8": {
+  "Artistic-1.0-cl8": {
+    name: "Artistic License 1.0 w/clause 8",
     id: "Artistic-1.0-cl8",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Artistic License 1.0 (Perl)": {
+  "Artistic-1.0-Perl": {
+    name: "Artistic License 1.0 (Perl)",
     id: "Artistic-1.0-Perl",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Artistic License 2.0": {
+  "Artistic-2.0": {
+    name: "Artistic License 2.0",
     id: "Artistic-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Baekmuk License": {
+  "ASWF-Digital-Assets-1.0": {
+    name: "ASWF Digital Assets License version 1.0",
+    id: "ASWF-Digital-Assets-1.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "ASWF-Digital-Assets-1.1": {
+    name: "ASWF Digital Assets License 1.1",
+    id: "ASWF-Digital-Assets-1.1",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Baekmuk: {
+    name: "Baekmuk License",
     id: "Baekmuk",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Bahyph License": {
+  Bahyph: {
+    name: "Bahyph License",
     id: "Bahyph",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Barr License": {
+  Barr: {
+    name: "Barr License",
     id: "Barr",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Beerware License": {
+  Beerware: {
+    name: "Beerware License",
     id: "Beerware",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Bitstream Charter Font License": {
+  "Bitstream-Charter": {
+    name: "Bitstream Charter Font License",
     id: "Bitstream-Charter",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Bitstream Vera Font License": {
+  "Bitstream-Vera": {
+    name: "Bitstream Vera Font License",
     id: "Bitstream-Vera",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BitTorrent Open Source License v1.0": {
+  "BitTorrent-1.0": {
+    name: "BitTorrent Open Source License v1.0",
     id: "BitTorrent-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BitTorrent Open Source License v1.1": {
+  "BitTorrent-1.1": {
+    name: "BitTorrent Open Source License v1.1",
     id: "BitTorrent-1.1",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "SQLite Blessing": {
+  blessing: {
+    name: "SQLite Blessing",
     id: "blessing",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Blue Oak Model License 1.0.0": {
+  "BlueOak-1.0.0": {
+    name: "Blue Oak Model License 1.0.0",
     id: "BlueOak-1.0.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Borceux license": {
+  "Boehm-GC": {
+    name: "Boehm-Demers-Weiser GC License",
+    id: "Boehm-GC",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Borceux: {
+    name: "Borceux license",
     id: "Borceux",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 1-Clause License": {
+  "Brian-Gladman-3-Clause": {
+    name: "Brian Gladman 3-Clause License",
+    id: "Brian-Gladman-3-Clause",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-1-Clause": {
+    name: "BSD 1-Clause License",
     id: "BSD-1-Clause",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "BSD 2-Clause \"Simplified\" License": {
+  "BSD-2-Clause": {
+    name: "BSD 2-Clause \"Simplified\" License",
     id: "BSD-2-Clause",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "BSD 2-Clause FreeBSD License": {
+  "BSD-2-Clause-FreeBSD": {
+    name: "BSD 2-Clause FreeBSD License",
     id: "BSD-2-Clause-FreeBSD",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "BSD 2-Clause NetBSD License": {
+  "BSD-2-Clause-NetBSD": {
+    name: "BSD 2-Clause NetBSD License",
     id: "BSD-2-Clause-NetBSD",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "BSD-2-Clause Plus Patent License": {
+  "BSD-2-Clause-Patent": {
+    name: "BSD-2-Clause Plus Patent License",
     id: "BSD-2-Clause-Patent",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "BSD 2-Clause with views sentence": {
+  "BSD-2-Clause-Views": {
+    name: "BSD 2-Clause with views sentence",
     id: "BSD-2-Clause-Views",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause \"New\" or \"Revised\" License": {
+  "BSD-3-Clause": {
+    name: "BSD 3-Clause \"New\" or \"Revised\" License",
     id: "BSD-3-Clause",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "BSD with attribution": {
+  "BSD-3-Clause-Attribution": {
+    name: "BSD with attribution",
     id: "BSD-3-Clause-Attribution",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause Clear License": {
+  "BSD-3-Clause-Clear": {
+    name: "BSD 3-Clause Clear License",
     id: "BSD-3-Clause-Clear",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Lawrence Berkeley National Labs BSD variant license": {
+  "BSD-3-Clause-flex": {
+    name: "BSD 3-Clause Flex variant",
+    id: "BSD-3-Clause-flex",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-3-Clause-HP": {
+    name: "Hewlett-Packard BSD variant license",
+    id: "BSD-3-Clause-HP",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-3-Clause-LBNL": {
+    name: "Lawrence Berkeley National Labs BSD variant license",
     id: "BSD-3-Clause-LBNL",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "BSD 3-Clause Modification": {
+  "BSD-3-Clause-Modification": {
+    name: "BSD 3-Clause Modification",
     id: "BSD-3-Clause-Modification",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause No Military License": {
+  "BSD-3-Clause-No-Military-License": {
+    name: "BSD 3-Clause No Military License",
     id: "BSD-3-Clause-No-Military-License",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause No Nuclear License": {
+  "BSD-3-Clause-No-Nuclear-License": {
+    name: "BSD 3-Clause No Nuclear License",
     id: "BSD-3-Clause-No-Nuclear-License",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause No Nuclear License 2014": {
+  "BSD-3-Clause-No-Nuclear-License-2014": {
+    name: "BSD 3-Clause No Nuclear License 2014",
     id: "BSD-3-Clause-No-Nuclear-License-2014",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause No Nuclear Warranty": {
+  "BSD-3-Clause-No-Nuclear-Warranty": {
+    name: "BSD 3-Clause No Nuclear Warranty",
     id: "BSD-3-Clause-No-Nuclear-Warranty",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 3-Clause Open MPI variant": {
+  "BSD-3-Clause-Open-MPI": {
+    name: "BSD 3-Clause Open MPI variant",
     id: "BSD-3-Clause-Open-MPI",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD 4-Clause \"Original\" or \"Old\" License": {
+  "BSD-3-Clause-Sun": {
+    name: "BSD 3-Clause Sun Microsystems",
+    id: "BSD-3-Clause-Sun",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-4-Clause": {
+    name: "BSD 4-Clause \"Original\" or \"Old\" License",
     id: "BSD-4-Clause",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "BSD 4 Clause Shortened": {
+  "BSD-4-Clause-Shortened": {
+    name: "BSD 4 Clause Shortened",
     id: "BSD-4-Clause-Shortened",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD-4-Clause (University of California-Specific)": {
+  "BSD-4-Clause-UC": {
+    name: "BSD-4-Clause (University of California-Specific)",
     id: "BSD-4-Clause-UC",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD Protection License": {
+  "BSD-4.3RENO": {
+    name: "BSD 4.3 RENO License",
+    id: "BSD-4.3RENO",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-4.3TAHOE": {
+    name: "BSD 4.3 TAHOE License",
+    id: "BSD-4.3TAHOE",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-Advertising-Acknowledgement": {
+    name: "BSD Advertising Acknowledgement License",
+    id: "BSD-Advertising-Acknowledgement",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-Attribution-HPND-disclaimer": {
+    name: "BSD with Attribution and HPND disclaimer",
+    id: "BSD-Attribution-HPND-disclaimer",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-Inferno-Nettverk": {
+    name: "BSD-Inferno-Nettverk",
+    id: "BSD-Inferno-Nettverk",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-Protection": {
+    name: "BSD Protection License",
     id: "BSD-Protection",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "BSD Source Code Attribution": {
+  "BSD-Source-Code": {
+    name: "BSD Source Code Attribution",
     id: "BSD-Source-Code",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Boost Software License 1.0": {
+  "BSD-Systemics": {
+    name: "Systemics BSD variant license",
+    id: "BSD-Systemics",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSL-1.0": {
+    name: "Boost Software License 1.0",
     id: "BSL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Business Source License 1.1": {
+  "BUSL-1.1": {
+    name: "Business Source License 1.1",
     id: "BUSL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "bzip2 and libbzip2 License v1.0.5": {
+  "bzip2-1.0.5": {
+    name: "bzip2 and libbzip2 License v1.0.5",
     id: "bzip2-1.0.5",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "bzip2 and libbzip2 License v1.0.6": {
+  "bzip2-1.0.6": {
+    name: "bzip2 and libbzip2 License v1.0.6",
     id: "bzip2-1.0.6",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Computational Use of Data Agreement v1.0": {
+  "C-UDA-1.0": {
+    name: "Computational Use of Data Agreement v1.0",
     id: "C-UDA-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Cryptographic Autonomy License 1.0": {
+  "CAL-1.0": {
+    name: "Cryptographic Autonomy License 1.0",
     id: "CAL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Cryptographic Autonomy License 1.0 (Combined Work Exception)": {
+  "CAL-1.0-Combined-Work-Exception": {
+    name: "Cryptographic Autonomy License 1.0 (Combined Work Exception)",
     id: "CAL-1.0-Combined-Work-Exception",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Caldera License": {
+  Caldera: {
+    name: "Caldera License",
     id: "Caldera",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Computer Associates Trusted Open Source License 1.1": {
+  "CATOSL-1.1": {
+    name: "Computer Associates Trusted Open Source License 1.1",
     id: "CATOSL-1.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Creative Commons Attribution 1.0 Generic": {
+  "CC-BY-1.0": {
+    name: "Creative Commons Attribution 1.0 Generic",
     id: "CC-BY-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 2.0 Generic": {
+  "CC-BY-2.0": {
+    name: "Creative Commons Attribution 2.0 Generic",
     id: "CC-BY-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 2.5 Generic": {
+  "CC-BY-2.5": {
+    name: "Creative Commons Attribution 2.5 Generic",
     id: "CC-BY-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 2.5 Australia": {
+  "CC-BY-2.5-AU": {
+    name: "Creative Commons Attribution 2.5 Australia",
     id: "CC-BY-2.5-AU",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 3.0 Unported": {
+  "CC-BY-3.0": {
+    name: "Creative Commons Attribution 3.0 Unported",
     id: "CC-BY-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 3.0 Austria": {
+  "CC-BY-3.0-AT": {
+    name: "Creative Commons Attribution 3.0 Austria",
     id: "CC-BY-3.0-AT",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 3.0 Germany": {
+  "CC-BY-3.0-DE": {
+    name: "Creative Commons Attribution 3.0 Germany",
     id: "CC-BY-3.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 3.0 IGO": {
+  "CC-BY-3.0-IGO": {
+    name: "Creative Commons Attribution 3.0 IGO",
     id: "CC-BY-3.0-IGO",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 3.0 Netherlands": {
+  "CC-BY-3.0-NL": {
+    name: "Creative Commons Attribution 3.0 Netherlands",
     id: "CC-BY-3.0-NL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 3.0 United States": {
+  "CC-BY-3.0-US": {
+    name: "Creative Commons Attribution 3.0 United States",
     id: "CC-BY-3.0-US",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution 4.0 International": {
+  "CC-BY-4.0": {
+    name: "Creative Commons Attribution 4.0 International",
     id: "CC-BY-4.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Creative Commons Attribution Non Commercial 1.0 Generic": {
+  "CC-BY-NC-1.0": {
+    name: "Creative Commons Attribution Non Commercial 1.0 Generic",
     id: "CC-BY-NC-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial 2.0 Generic": {
+  "CC-BY-NC-2.0": {
+    name: "Creative Commons Attribution Non Commercial 2.0 Generic",
     id: "CC-BY-NC-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial 2.5 Generic": {
+  "CC-BY-NC-2.5": {
+    name: "Creative Commons Attribution Non Commercial 2.5 Generic",
     id: "CC-BY-NC-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial 3.0 Unported": {
+  "CC-BY-NC-3.0": {
+    name: "Creative Commons Attribution Non Commercial 3.0 Unported",
     id: "CC-BY-NC-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial 3.0 Germany": {
+  "CC-BY-NC-3.0-DE": {
+    name: "Creative Commons Attribution Non Commercial 3.0 Germany",
     id: "CC-BY-NC-3.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial 4.0 International": {
+  "CC-BY-NC-4.0": {
+    name: "Creative Commons Attribution Non Commercial 4.0 International",
     id: "CC-BY-NC-4.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic": {
+  "CC-BY-NC-ND-1.0": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic",
     id: "CC-BY-NC-ND-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic": {
+  "CC-BY-NC-ND-2.0": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic",
     id: "CC-BY-NC-ND-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic": {
+  "CC-BY-NC-ND-2.5": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic",
     id: "CC-BY-NC-ND-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported": {
+  "CC-BY-NC-ND-3.0": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported",
     id: "CC-BY-NC-ND-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 3.0 Germany": {
+  "CC-BY-NC-ND-3.0-DE": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 3.0 Germany",
     id: "CC-BY-NC-ND-3.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO": {
+  "CC-BY-NC-ND-3.0-IGO": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO",
     id: "CC-BY-NC-ND-3.0-IGO",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial No Derivatives 4.0 International": {
+  "CC-BY-NC-ND-4.0": {
+    name: "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
     id: "CC-BY-NC-ND-4.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic": {
+  "CC-BY-NC-SA-1.0": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic",
     id: "CC-BY-NC-SA-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 2.0 Generic": {
+  "CC-BY-NC-SA-2.0": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 2.0 Generic",
     id: "CC-BY-NC-SA-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 2.0 Germany": {
+  "CC-BY-NC-SA-2.0-DE": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 2.0 Germany",
     id: "CC-BY-NC-SA-2.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France": {
+  "CC-BY-NC-SA-2.0-FR": {
+    name: "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France",
     id: "CC-BY-NC-SA-2.0-FR",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 2.0 England and Wales": {
+  "CC-BY-NC-SA-2.0-UK": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 2.0 England and Wales",
     id: "CC-BY-NC-SA-2.0-UK",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 2.5 Generic": {
+  "CC-BY-NC-SA-2.5": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 2.5 Generic",
     id: "CC-BY-NC-SA-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported": {
+  "CC-BY-NC-SA-3.0": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
     id: "CC-BY-NC-SA-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 3.0 Germany": {
+  "CC-BY-NC-SA-3.0-DE": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 3.0 Germany",
     id: "CC-BY-NC-SA-3.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 3.0 IGO": {
+  "CC-BY-NC-SA-3.0-IGO": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 3.0 IGO",
     id: "CC-BY-NC-SA-3.0-IGO",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Non Commercial Share Alike 4.0 International": {
+  "CC-BY-NC-SA-4.0": {
+    name: "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
     id: "CC-BY-NC-SA-4.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution No Derivatives 1.0 Generic": {
+  "CC-BY-ND-1.0": {
+    name: "Creative Commons Attribution No Derivatives 1.0 Generic",
     id: "CC-BY-ND-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution No Derivatives 2.0 Generic": {
+  "CC-BY-ND-2.0": {
+    name: "Creative Commons Attribution No Derivatives 2.0 Generic",
     id: "CC-BY-ND-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution No Derivatives 2.5 Generic": {
+  "CC-BY-ND-2.5": {
+    name: "Creative Commons Attribution No Derivatives 2.5 Generic",
     id: "CC-BY-ND-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution No Derivatives 3.0 Unported": {
+  "CC-BY-ND-3.0": {
+    name: "Creative Commons Attribution No Derivatives 3.0 Unported",
     id: "CC-BY-ND-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution No Derivatives 3.0 Germany": {
+  "CC-BY-ND-3.0-DE": {
+    name: "Creative Commons Attribution No Derivatives 3.0 Germany",
     id: "CC-BY-ND-3.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution No Derivatives 4.0 International": {
+  "CC-BY-ND-4.0": {
+    name: "Creative Commons Attribution No Derivatives 4.0 International",
     id: "CC-BY-ND-4.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 1.0 Generic": {
+  "CC-BY-SA-1.0": {
+    name: "Creative Commons Attribution Share Alike 1.0 Generic",
     id: "CC-BY-SA-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 2.0 Generic": {
+  "CC-BY-SA-2.0": {
+    name: "Creative Commons Attribution Share Alike 2.0 Generic",
     id: "CC-BY-SA-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 2.0 England and Wales": {
+  "CC-BY-SA-2.0-UK": {
+    name: "Creative Commons Attribution Share Alike 2.0 England and Wales",
     id: "CC-BY-SA-2.0-UK",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 2.1 Japan": {
+  "CC-BY-SA-2.1-JP": {
+    name: "Creative Commons Attribution Share Alike 2.1 Japan",
     id: "CC-BY-SA-2.1-JP",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 2.5 Generic": {
+  "CC-BY-SA-2.5": {
+    name: "Creative Commons Attribution Share Alike 2.5 Generic",
     id: "CC-BY-SA-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 3.0 Unported": {
+  "CC-BY-SA-3.0": {
+    name: "Creative Commons Attribution Share Alike 3.0 Unported",
     id: "CC-BY-SA-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 3.0 Austria": {
+  "CC-BY-SA-3.0-AT": {
+    name: "Creative Commons Attribution Share Alike 3.0 Austria",
     id: "CC-BY-SA-3.0-AT",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 3.0 Germany": {
+  "CC-BY-SA-3.0-DE": {
+    name: "Creative Commons Attribution Share Alike 3.0 Germany",
     id: "CC-BY-SA-3.0-DE",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Attribution Share Alike 4.0 International": {
+  "CC-BY-SA-3.0-IGO": {
+    name: "Creative Commons Attribution-ShareAlike 3.0 IGO",
+    id: "CC-BY-SA-3.0-IGO",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "CC-BY-SA-4.0": {
+    name: "Creative Commons Attribution Share Alike 4.0 International",
     id: "CC-BY-SA-4.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Creative Commons Public Domain Dedication and Certification": {
+  "CC-PDDC": {
+    name: "Creative Commons Public Domain Dedication and Certification",
     id: "CC-PDDC",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Creative Commons Zero v1.0 Universal": {
+  "CC0-1.0": {
+    name: "Creative Commons Zero v1.0 Universal",
     id: "CC0-1.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Common Development and Distribution License 1.0": {
+  "CDDL-1.0": {
+    name: "Common Development and Distribution License 1.0",
     id: "CDDL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Common Development and Distribution License 1.1": {
+  "CDDL-1.1": {
+    name: "Common Development and Distribution License 1.1",
     id: "CDDL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Common Documentation License 1.0": {
+  "CDL-1.0": {
+    name: "Common Documentation License 1.0",
     id: "CDL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Community Data License Agreement Permissive 1.0": {
+  "CDLA-Permissive-1.0": {
+    name: "Community Data License Agreement Permissive 1.0",
     id: "CDLA-Permissive-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Community Data License Agreement Permissive 2.0": {
+  "CDLA-Permissive-2.0": {
+    name: "Community Data License Agreement Permissive 2.0",
     id: "CDLA-Permissive-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Community Data License Agreement Sharing 1.0": {
+  "CDLA-Sharing-1.0": {
+    name: "Community Data License Agreement Sharing 1.0",
     id: "CDLA-Sharing-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CeCILL Free Software License Agreement v1.0": {
+  "CECILL-1.0": {
+    name: "CeCILL Free Software License Agreement v1.0",
     id: "CECILL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CeCILL Free Software License Agreement v1.1": {
+  "CECILL-1.1": {
+    name: "CeCILL Free Software License Agreement v1.1",
     id: "CECILL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CeCILL Free Software License Agreement v2.0": {
+  "CECILL-2.0": {
+    name: "CeCILL Free Software License Agreement v2.0",
     id: "CECILL-2.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "CeCILL Free Software License Agreement v2.1": {
+  "CECILL-2.1": {
+    name: "CeCILL Free Software License Agreement v2.1",
     id: "CECILL-2.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "CeCILL-B Free Software License Agreement": {
+  "CECILL-B": {
+    name: "CeCILL-B Free Software License Agreement",
     id: "CECILL-B",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "CeCILL-C Free Software License Agreement": {
+  "CECILL-C": {
+    name: "CeCILL-C Free Software License Agreement",
     id: "CECILL-C",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "CERN Open Hardware Licence v1.1": {
+  "CERN-OHL-1.1": {
+    name: "CERN Open Hardware Licence v1.1",
     id: "CERN-OHL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CERN Open Hardware Licence v1.2": {
+  "CERN-OHL-1.2": {
+    name: "CERN Open Hardware Licence v1.2",
     id: "CERN-OHL-1.2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CERN Open Hardware Licence Version 2 - Permissive": {
+  "CERN-OHL-P-2.0": {
+    name: "CERN Open Hardware Licence Version 2 - Permissive",
     id: "CERN-OHL-P-2.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "CERN Open Hardware Licence Version 2 - Strongly Reciprocal": {
+  "CERN-OHL-S-2.0": {
+    name: "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
     id: "CERN-OHL-S-2.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "CERN Open Hardware Licence Version 2 - Weakly Reciprocal": {
+  "CERN-OHL-W-2.0": {
+    name: "CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
     id: "CERN-OHL-W-2.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Checkmk License": {
+  CFITSIO: {
+    name: "CFITSIO License",
+    id: "CFITSIO",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "check-cvs": {
+    name: "check-cvs License",
+    id: "check-cvs",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  checkmk: {
+    name: "Checkmk License",
     id: "checkmk",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Clarified Artistic License": {
+  ClArtistic: {
+    name: "Clarified Artistic License",
     id: "ClArtistic",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "CNRI Jython License": {
+  Clips: {
+    name: "Clips License",
+    id: "Clips",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "CMU-Mach": {
+    name: "CMU Mach License",
+    id: "CMU-Mach",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "CNRI-Jython": {
+    name: "CNRI Jython License",
     id: "CNRI-Jython",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CNRI Python License": {
+  "CNRI-Python": {
+    name: "CNRI Python License",
     id: "CNRI-Python",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "CNRI Python Open Source GPL Compatible License Agreement": {
+  "CNRI-Python-GPL-Compatible": {
+    name: "CNRI Python Open Source GPL Compatible License Agreement",
     id: "CNRI-Python-GPL-Compatible",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Copyfree Open Innovation License": {
+  "COIL-1.0": {
+    name: "Copyfree Open Innovation License",
     id: "COIL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Community Specification License 1.0": {
+  "Community-Spec-1.0": {
+    name: "Community Specification License 1.0",
     id: "Community-Spec-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Condor Public License v1.1": {
+  "Condor-1.1": {
+    name: "Condor Public License v1.1",
     id: "Condor-1.1",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "copyleft-next 0.3.0": {
+  "copyleft-next-0.3.0": {
+    name: "copyleft-next 0.3.0",
     id: "copyleft-next-0.3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "copyleft-next 0.3.1": {
+  "copyleft-next-0.3.1": {
+    name: "copyleft-next 0.3.1",
     id: "copyleft-next-0.3.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Common Public Attribution License 1.0": {
+  "Cornell-Lossless-JPEG": {
+    name: "Cornell Lossless JPEG License",
+    id: "Cornell-Lossless-JPEG",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "CPAL-1.0": {
+    name: "Common Public Attribution License 1.0",
     id: "CPAL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Common Public License 1.0": {
+  "CPL-1.0": {
+    name: "Common Public License 1.0",
     id: "CPL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Code Project Open License 1.02": {
+  "CPOL-1.02": {
+    name: "Code Project Open License 1.02",
     id: "CPOL-1.02",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Crossword License": {
+  Cronyx: {
+    name: "Cronyx License",
+    id: "Cronyx",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Crossword: {
+    name: "Crossword License",
     id: "Crossword",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CrystalStacker License": {
+  CrystalStacker: {
+    name: "CrystalStacker License",
     id: "CrystalStacker",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CUA Office Public License v1.0": {
+  "CUA-OPL-1.0": {
+    name: "CUA Office Public License v1.0",
     id: "CUA-OPL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Cube License": {
+  Cube: {
+    name: "Cube License",
     id: "Cube",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "curl License": {
+  curl: {
+    name: "curl License",
     id: "curl",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Deutsche Freie Software Lizenz": {
+  "D-FSL-1.0": {
+    name: "Deutsche Freie Software Lizenz",
     id: "D-FSL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "diffmark license": {
+  "DEC-3-Clause": {
+    name: "DEC 3-Clause License",
+    id: "DEC-3-Clause",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  diffmark: {
+    name: "diffmark license",
     id: "diffmark",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Data licence Germany – attribution – version 2.0": {
+  "DL-DE-BY-2.0": {
+    name: "Data licence Germany – attribution – version 2.0",
     id: "DL-DE-BY-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "DOC License": {
+  "DL-DE-ZERO-2.0": {
+    name: "Data licence Germany – zero – version 2.0",
+    id: "DL-DE-ZERO-2.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  DOC: {
+    name: "DOC License",
     id: "DOC",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Dotseqn License": {
+  Dotseqn: {
+    name: "Dotseqn License",
     id: "Dotseqn",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Detection Rule License 1.0": {
+  "DRL-1.0": {
+    name: "Detection Rule License 1.0",
     id: "DRL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "DSDP License": {
+  "DRL-1.1": {
+    name: "Detection Rule License 1.1",
+    id: "DRL-1.1",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  DSDP: {
+    name: "DSDP License",
     id: "DSDP",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "dvipdfm License": {
+  dtoa: {
+    name: "David M. Gay dtoa License",
+    id: "dtoa",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  dvipdfm: {
+    name: "dvipdfm License",
     id: "dvipdfm",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Educational Community License v1.0": {
+  "ECL-1.0": {
+    name: "Educational Community License v1.0",
     id: "ECL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Educational Community License v2.0": {
+  "ECL-2.0": {
+    name: "Educational Community License v2.0",
     id: "ECL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "eCos license version 2.0": {
+  "eCos-2.0": {
+    name: "eCos license version 2.0",
     id: "eCos-2.0",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "Eiffel Forum License v1.0": {
+  "EFL-1.0": {
+    name: "Eiffel Forum License v1.0",
     id: "EFL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Eiffel Forum License v2.0": {
+  "EFL-2.0": {
+    name: "Eiffel Forum License v2.0",
     id: "EFL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "eGenix.com Public License 1.1.0": {
+  eGenix: {
+    name: "eGenix.com Public License 1.1.0",
     id: "eGenix",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Elastic License 2.0": {
+  "Elastic-2.0": {
+    name: "Elastic License 2.0",
     id: "Elastic-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Entessa Public License v1.0": {
+  Entessa: {
+    name: "Entessa Public License v1.0",
     id: "Entessa",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "EPICS Open License": {
+  EPICS: {
+    name: "EPICS Open License",
     id: "EPICS",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Eclipse Public License 1.0": {
+  "EPL-1.0": {
+    name: "Eclipse Public License 1.0",
     id: "EPL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Eclipse Public License 2.0": {
+  "EPL-2.0": {
+    name: "Eclipse Public License 2.0",
     id: "EPL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Erlang Public License v1.1": {
+  "ErlPL-1.1": {
+    name: "Erlang Public License v1.1",
     id: "ErlPL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Etalab Open License 2.0": {
+  "etalab-2.0": {
+    name: "Etalab Open License 2.0",
     id: "etalab-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "EU DataGrid Software License": {
+  EUDatagrid: {
+    name: "EU DataGrid Software License",
     id: "EUDatagrid",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "European Union Public License 1.0": {
+  "EUPL-1.0": {
+    name: "European Union Public License 1.0",
     id: "EUPL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "European Union Public License 1.1": {
+  "EUPL-1.1": {
+    name: "European Union Public License 1.1",
     id: "EUPL-1.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "European Union Public License 1.2": {
+  "EUPL-1.2": {
+    name: "European Union Public License 1.2",
     id: "EUPL-1.2",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Eurosym License": {
+  Eurosym: {
+    name: "Eurosym License",
     id: "Eurosym",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Fair License": {
+  Fair: {
+    name: "Fair License",
     id: "Fair",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Fraunhofer FDK AAC Codec Library": {
+  FBM: {
+    name: "Fuzzy Bitmap License",
+    id: "FBM",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "FDK-AAC": {
+    name: "Fraunhofer FDK AAC Codec Library",
     id: "FDK-AAC",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Frameworx Open License 1.0": {
+  "Ferguson-Twofish": {
+    name: "Ferguson Twofish License",
+    id: "Ferguson-Twofish",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Frameworx-1.0": {
+    name: "Frameworx Open License 1.0",
     id: "Frameworx-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "FreeBSD Documentation License": {
+  "FreeBSD-DOC": {
+    name: "FreeBSD Documentation License",
     id: "FreeBSD-DOC",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "FreeImage Public License v1.0": {
+  FreeImage: {
+    name: "FreeImage Public License v1.0",
     id: "FreeImage",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "FSF All Permissive License": {
+  FSFAP: {
+    name: "FSF All Permissive License",
     id: "FSFAP",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "FSF Unlimited License": {
+  FSFUL: {
+    name: "FSF Unlimited License",
     id: "FSFUL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "FSF Unlimited License (with License Retention)": {
+  FSFULLR: {
+    name: "FSF Unlimited License (with License Retention)",
     id: "FSFULLR",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "FSF Unlimited License (With License Retention    and Warranty Disclaimer)": {
+  FSFULLRWD: {
+    name: "FSF Unlimited License (With License Retention and Warranty Disclaimer)",
     id: "FSFULLRWD",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Freetype Project License": {
+  FTL: {
+    name: "Freetype Project License",
     id: "FTL",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GD License": {
+  Furuseth: {
+    name: "Furuseth License",
+    id: "Furuseth",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  fwlw: {
+    name: "fwlw License",
+    id: "fwlw",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "GCR-docs": {
+    name: "Gnome GCR Documentation License",
+    id: "GCR-docs",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  GD: {
+    name: "GD License",
     id: "GD",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.1": {
+  "GFDL-1.1": {
+    name: "GNU Free Documentation License v1.1",
     id: "GFDL-1.1",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.1 only - invariants": {
+  "GFDL-1.1-invariants-only": {
+    name: "GNU Free Documentation License v1.1 only - invariants",
     id: "GFDL-1.1-invariants-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.1 or later - invariants": {
+  "GFDL-1.1-invariants-or-later": {
+    name: "GNU Free Documentation License v1.1 or later - invariants",
     id: "GFDL-1.1-invariants-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.1 only - no invariants": {
+  "GFDL-1.1-no-invariants-only": {
+    name: "GNU Free Documentation License v1.1 only - no invariants",
     id: "GFDL-1.1-no-invariants-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.1 or later - no invariants": {
+  "GFDL-1.1-no-invariants-or-later": {
+    name: "GNU Free Documentation License v1.1 or later - no invariants",
     id: "GFDL-1.1-no-invariants-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.1 only": {
+  "GFDL-1.1-only": {
+    name: "GNU Free Documentation License v1.1 only",
     id: "GFDL-1.1-only",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.1 or later": {
+  "GFDL-1.1-or-later": {
+    name: "GNU Free Documentation License v1.1 or later",
     id: "GFDL-1.1-or-later",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.2": {
+  "GFDL-1.2": {
+    name: "GNU Free Documentation License v1.2",
     id: "GFDL-1.2",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.2 only - invariants": {
+  "GFDL-1.2-invariants-only": {
+    name: "GNU Free Documentation License v1.2 only - invariants",
     id: "GFDL-1.2-invariants-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.2 or later - invariants": {
+  "GFDL-1.2-invariants-or-later": {
+    name: "GNU Free Documentation License v1.2 or later - invariants",
     id: "GFDL-1.2-invariants-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.2 only - no invariants": {
+  "GFDL-1.2-no-invariants-only": {
+    name: "GNU Free Documentation License v1.2 only - no invariants",
     id: "GFDL-1.2-no-invariants-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.2 or later - no invariants": {
+  "GFDL-1.2-no-invariants-or-later": {
+    name: "GNU Free Documentation License v1.2 or later - no invariants",
     id: "GFDL-1.2-no-invariants-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.2 only": {
+  "GFDL-1.2-only": {
+    name: "GNU Free Documentation License v1.2 only",
     id: "GFDL-1.2-only",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.2 or later": {
+  "GFDL-1.2-or-later": {
+    name: "GNU Free Documentation License v1.2 or later",
     id: "GFDL-1.2-or-later",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.3": {
+  "GFDL-1.3": {
+    name: "GNU Free Documentation License v1.3",
     id: "GFDL-1.3",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.3 only - invariants": {
+  "GFDL-1.3-invariants-only": {
+    name: "GNU Free Documentation License v1.3 only - invariants",
     id: "GFDL-1.3-invariants-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.3 or later - invariants": {
+  "GFDL-1.3-invariants-or-later": {
+    name: "GNU Free Documentation License v1.3 or later - invariants",
     id: "GFDL-1.3-invariants-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.3 only - no invariants": {
+  "GFDL-1.3-no-invariants-only": {
+    name: "GNU Free Documentation License v1.3 only - no invariants",
     id: "GFDL-1.3-no-invariants-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.3 or later - no invariants": {
+  "GFDL-1.3-no-invariants-or-later": {
+    name: "GNU Free Documentation License v1.3 or later - no invariants",
     id: "GFDL-1.3-no-invariants-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Free Documentation License v1.3 only": {
+  "GFDL-1.3-only": {
+    name: "GNU Free Documentation License v1.3 only",
     id: "GFDL-1.3-only",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GNU Free Documentation License v1.3 or later": {
+  "GFDL-1.3-or-later": {
+    name: "GNU Free Documentation License v1.3 or later",
     id: "GFDL-1.3-or-later",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Giftware License": {
+  Giftware: {
+    name: "Giftware License",
     id: "Giftware",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GL2PS License": {
+  GL2PS: {
+    name: "GL2PS License",
     id: "GL2PS",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "3dfx Glide License": {
+  Glide: {
+    name: "3dfx Glide License",
     id: "Glide",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Glulxe License": {
+  Glulxe: {
+    name: "Glulxe License",
     id: "Glulxe",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Good Luck With That Public License": {
+  GLWTPL: {
+    name: "Good Luck With That Public License",
     id: "GLWTPL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "gnuplot License": {
+  gnuplot: {
+    name: "gnuplot License",
     id: "gnuplot",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "GNU General Public License v1.0 only": {
+  "GPL-1.0": {
+    name: "GNU General Public License v1.0 only",
+    id: "GPL-1.0",
+    deprecated: true,
+    osi: false,
+    fsf: false
+  },
+  "GPL-1.0+": {
+    name: "GNU General Public License v1.0 or later",
+    id: "GPL-1.0+",
+    deprecated: true,
+    osi: false,
+    fsf: false
+  },
+  "GPL-1.0-only": {
+    name: "GNU General Public License v1.0 only",
     id: "GPL-1.0-only",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v1.0 or later": {
+  "GPL-1.0-or-later": {
+    name: "GNU General Public License v1.0 or later",
     id: "GPL-1.0-or-later",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v2.0 only": {
+  "GPL-2.0": {
+    name: "GNU General Public License v2.0 only",
+    id: "GPL-2.0",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "GPL-2.0+": {
+    name: "GNU General Public License v2.0 or later",
+    id: "GPL-2.0+",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "GPL-2.0-only": {
+    name: "GNU General Public License v2.0 only",
     id: "GPL-2.0-only",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU General Public License v2.0 or later": {
+  "GPL-2.0-or-later": {
+    name: "GNU General Public License v2.0 or later",
     id: "GPL-2.0-or-later",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU General Public License v2.0 w/Autoconf exception": {
+  "GPL-2.0-with-autoconf-exception": {
+    name: "GNU General Public License v2.0 w/Autoconf exception",
     id: "GPL-2.0-with-autoconf-exception",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v2.0 w/Bison exception": {
+  "GPL-2.0-with-bison-exception": {
+    name: "GNU General Public License v2.0 w/Bison exception",
     id: "GPL-2.0-with-bison-exception",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v2.0 w/Classpath exception": {
+  "GPL-2.0-with-classpath-exception": {
+    name: "GNU General Public License v2.0 w/Classpath exception",
     id: "GPL-2.0-with-classpath-exception",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v2.0 w/Font exception": {
+  "GPL-2.0-with-font-exception": {
+    name: "GNU General Public License v2.0 w/Font exception",
     id: "GPL-2.0-with-font-exception",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v2.0 w/GCC Runtime Library exception": {
+  "GPL-2.0-with-GCC-exception": {
+    name: "GNU General Public License v2.0 w/GCC Runtime Library exception",
     id: "GPL-2.0-with-GCC-exception",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v3.0 only": {
+  "GPL-3.0": {
+    name: "GNU General Public License v3.0 only",
+    id: "GPL-3.0",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "GPL-3.0+": {
+    name: "GNU General Public License v3.0 or later",
+    id: "GPL-3.0+",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "GPL-3.0-only": {
+    name: "GNU General Public License v3.0 only",
     id: "GPL-3.0-only",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU General Public License v3.0 or later": {
+  "GPL-3.0-or-later": {
+    name: "GNU General Public License v3.0 or later",
     id: "GPL-3.0-or-later",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU General Public License v3.0 w/Autoconf exception": {
+  "GPL-3.0-with-autoconf-exception": {
+    name: "GNU General Public License v3.0 w/Autoconf exception",
     id: "GPL-3.0-with-autoconf-exception",
     deprecated: true,
     osi: false,
     fsf: false
   },
-  "GNU General Public License v3.0 w/GCC Runtime Library exception": {
+  "GPL-3.0-with-GCC-exception": {
+    name: "GNU General Public License v3.0 w/GCC Runtime Library exception",
     id: "GPL-3.0-with-GCC-exception",
     deprecated: true,
     osi: true,
     fsf: false
   },
-  "Graphics Gems License": {
+  "Graphics-Gems": {
+    name: "Graphics Gems License",
     id: "Graphics-Gems",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "gSOAP Public License v1.3b": {
+  "gSOAP-1.3b": {
+    name: "gSOAP Public License v1.3b",
     id: "gSOAP-1.3b",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Haskell Language Report License": {
+  HaskellReport: {
+    name: "Haskell Language Report License",
     id: "HaskellReport",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Hippocratic License 2.1": {
+  hdparm: {
+    name: "hdparm License",
+    id: "hdparm",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Hippocratic-2.1": {
+    name: "Hippocratic License 2.1",
     id: "Hippocratic-2.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Historical Permission Notice and Disclaimer": {
+  "HP-1986": {
+    name: "Hewlett-Packard 1986 License",
+    id: "HP-1986",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HP-1989": {
+    name: "Hewlett-Packard 1989 License",
+    id: "HP-1989",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  HPND: {
+    name: "Historical Permission Notice and Disclaimer",
     id: "HPND",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "HPND with US Government export control warning": {
+  "HPND-DEC": {
+    name: "Historical Permission Notice and Disclaimer - DEC variant",
+    id: "HPND-DEC",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-doc": {
+    name: "Historical Permission Notice and Disclaimer - documentation variant",
+    id: "HPND-doc",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-doc-sell": {
+    name: "Historical Permission Notice and Disclaimer - documentation sell variant",
+    id: "HPND-doc-sell",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-export-US": {
+    name: "HPND with US Government export control warning",
     id: "HPND-export-US",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Historical Permission Notice and Disclaimer - sell variant": {
+  "HPND-export-US-modify": {
+    name: "HPND with US Government export control warning and modification rqmt",
+    id: "HPND-export-US-modify",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-Markus-Kuhn": {
+    name: "Historical Permission Notice and Disclaimer - Markus Kuhn variant",
+    id: "HPND-Markus-Kuhn",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-Pbmplus": {
+    name: "Historical Permission Notice and Disclaimer - Pbmplus variant",
+    id: "HPND-Pbmplus",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-sell-MIT-disclaimer-xserver": {
+    name: "Historical Permission Notice and Disclaimer - sell xserver variant with MIT disclaimer",
+    id: "HPND-sell-MIT-disclaimer-xserver",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-sell-regexpr": {
+    name: "Historical Permission Notice and Disclaimer - sell regexpr variant",
+    id: "HPND-sell-regexpr",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-sell-variant": {
+    name: "Historical Permission Notice and Disclaimer - sell variant",
     id: "HPND-sell-variant",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "HTML Tidy License": {
+  "HPND-sell-variant-MIT-disclaimer": {
+    name: "HPND sell variant with MIT disclaimer",
+    id: "HPND-sell-variant-MIT-disclaimer",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-UC": {
+    name: "Historical Permission Notice and Disclaimer - University of California variant",
+    id: "HPND-UC",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  HTMLTIDY: {
+    name: "HTML Tidy License",
     id: "HTMLTIDY",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "IBM PowerPC Initialization and Boot Software": {
+  "IBM-pibs": {
+    name: "IBM PowerPC Initialization and Boot Software",
     id: "IBM-pibs",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "ICU License": {
+  ICU: {
+    name: "ICU License",
     id: "ICU",
+    deprecated: false,
+    osi: true,
+    fsf: false
+  },
+  "IEC-Code-Components-EULA": {
+    name: "IEC    Code Components End-user licence agreement",
+    id: "IEC-Code-Components-EULA",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Independent JPEG Group License": {
+  IJG: {
+    name: "Independent JPEG Group License",
     id: "IJG",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Independent JPEG Group License - short": {
+  "IJG-short": {
+    name: "Independent JPEG Group License - short",
     id: "IJG-short",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "ImageMagick License": {
+  ImageMagick: {
+    name: "ImageMagick License",
     id: "ImageMagick",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "iMatix Standard Function Library Agreement": {
+  iMatix: {
+    name: "iMatix Standard Function Library Agreement",
     id: "iMatix",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Imlib2 License": {
+  Imlib2: {
+    name: "Imlib2 License",
     id: "Imlib2",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Info-ZIP License": {
+  "Info-ZIP": {
+    name: "Info-ZIP License",
     id: "Info-ZIP",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Intel Open Source License": {
+  "Inner-Net-2.0": {
+    name: "Inner Net License v2.0",
+    id: "Inner-Net-2.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Intel: {
+    name: "Intel Open Source License",
     id: "Intel",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Intel ACPI Software License Agreement": {
+  "Intel-ACPI": {
+    name: "Intel ACPI Software License Agreement",
     id: "Intel-ACPI",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Interbase Public License v1.0": {
+  "Interbase-1.0": {
+    name: "Interbase Public License v1.0",
     id: "Interbase-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "IPA Font License": {
+  IPA: {
+    name: "IPA Font License",
     id: "IPA",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "IBM Public License v1.0": {
+  "IPL-1.0": {
+    name: "IBM Public License v1.0",
     id: "IPL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "ISC License": {
+  ISC: {
+    name: "ISC License",
     id: "ISC",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Jam License": {
+  Jam: {
+    name: "Jam License",
     id: "Jam",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "JasPer License": {
+  "JasPer-2.0": {
+    name: "JasPer License",
     id: "JasPer-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Japan Network Information Center License": {
+  "JPL-image": {
+    name: "JPL Image Use Policy",
+    id: "JPL-image",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  JPNIC: {
+    name: "Japan Network Information Center License",
     id: "JPNIC",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "JSON License": {
+  JSON: {
+    name: "JSON License",
     id: "JSON",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Knuth CTAN License": {
+  Kastrup: {
+    name: "Kastrup License",
+    id: "Kastrup",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Kazlib: {
+    name: "Kazlib License",
+    id: "Kazlib",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Knuth-CTAN": {
+    name: "Knuth CTAN License",
     id: "Knuth-CTAN",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Licence Art Libre 1.2": {
+  "LAL-1.2": {
+    name: "Licence Art Libre 1.2",
     id: "LAL-1.2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Licence Art Libre 1.3": {
+  "LAL-1.3": {
+    name: "Licence Art Libre 1.3",
     id: "LAL-1.3",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Latex2e License": {
+  Latex2e: {
+    name: "Latex2e License",
     id: "Latex2e",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Leptonica License": {
+  "Latex2e-translated-notice": {
+    name: "Latex2e with translated notice permission",
+    id: "Latex2e-translated-notice",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Leptonica: {
+    name: "Leptonica License",
     id: "Leptonica",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "GNU Library General Public License v2 only": {
+  "LGPL-2.0": {
+    name: "GNU Library General Public License v2 only",
+    id: "LGPL-2.0",
+    deprecated: true,
+    osi: true,
+    fsf: false
+  },
+  "LGPL-2.0+": {
+    name: "GNU Library General Public License v2 or later",
+    id: "LGPL-2.0+",
+    deprecated: true,
+    osi: true,
+    fsf: false
+  },
+  "LGPL-2.0-only": {
+    name: "GNU Library General Public License v2 only",
     id: "LGPL-2.0-only",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "GNU Library General Public License v2 or later": {
+  "LGPL-2.0-or-later": {
+    name: "GNU Library General Public License v2 or later",
     id: "LGPL-2.0-or-later",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "GNU Lesser General Public License v2.1 only": {
+  "LGPL-2.1": {
+    name: "GNU Lesser General Public License v2.1 only",
+    id: "LGPL-2.1",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "LGPL-2.1+": {
+    name: "GNU Lesser General Public License v2.1 or later",
+    id: "LGPL-2.1+",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "LGPL-2.1-only": {
+    name: "GNU Lesser General Public License v2.1 only",
     id: "LGPL-2.1-only",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU Lesser General Public License v2.1 or later": {
+  "LGPL-2.1-or-later": {
+    name: "GNU Lesser General Public License v2.1 or later",
     id: "LGPL-2.1-or-later",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU Lesser General Public License v3.0 only": {
+  "LGPL-3.0": {
+    name: "GNU Lesser General Public License v3.0 only",
+    id: "LGPL-3.0",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "LGPL-3.0+": {
+    name: "GNU Lesser General Public License v3.0 or later",
+    id: "LGPL-3.0+",
+    deprecated: true,
+    osi: true,
+    fsf: true
+  },
+  "LGPL-3.0-only": {
+    name: "GNU Lesser General Public License v3.0 only",
     id: "LGPL-3.0-only",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "GNU Lesser General Public License v3.0 or later": {
+  "LGPL-3.0-or-later": {
+    name: "GNU Lesser General Public License v3.0 or later",
     id: "LGPL-3.0-or-later",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Lesser General Public License For Linguistic Resources": {
+  LGPLLR: {
+    name: "Lesser General Public License For Linguistic Resources",
     id: "LGPLLR",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "libpng License": {
+  Libpng: {
+    name: "libpng License",
     id: "Libpng",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "PNG Reference Library version 2": {
+  "libpng-2.0": {
+    name: "PNG Reference Library version 2",
     id: "libpng-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "libselinux public domain notice": {
+  "libselinux-1.0": {
+    name: "libselinux public domain notice",
     id: "libselinux-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "libtiff License": {
+  libtiff: {
+    name: "libtiff License",
     id: "libtiff",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "libutil David Nugent License": {
+  "libutil-David-Nugent": {
+    name: "libutil David Nugent License",
     id: "libutil-David-Nugent",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Licence Libre du Québec – Permissive version 1.1": {
+  "LiLiQ-P-1.1": {
+    name: "Licence Libre du Québec – Permissive version 1.1",
     id: "LiLiQ-P-1.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Licence Libre du Québec – Réciprocité version 1.1": {
+  "LiLiQ-R-1.1": {
+    name: "Licence Libre du Québec – Réciprocité version 1.1",
     id: "LiLiQ-R-1.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Licence Libre du Québec – Réciprocité forte version 1.1": {
+  "LiLiQ-Rplus-1.1": {
+    name: "Licence Libre du Québec – Réciprocité forte version 1.1",
     id: "LiLiQ-Rplus-1.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Linux man-pages Copyleft": {
+  "Linux-man-pages-1-para": {
+    name: "Linux man-pages - 1 paragraph",
+    id: "Linux-man-pages-1-para",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Linux-man-pages-copyleft": {
+    name: "Linux man-pages Copyleft",
     id: "Linux-man-pages-copyleft",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Linux Kernel Variant of OpenIB.org license": {
+  "Linux-man-pages-copyleft-2-para": {
+    name: "Linux man-pages Copyleft - 2 paragraphs",
+    id: "Linux-man-pages-copyleft-2-para",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Linux-man-pages-copyleft-var": {
+    name: "Linux man-pages Copyleft Variant",
+    id: "Linux-man-pages-copyleft-var",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Linux-OpenIB": {
+    name: "Linux Kernel Variant of OpenIB.org license",
     id: "Linux-OpenIB",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Common Lisp LOOP License": {
+  LOOP: {
+    name: "Common Lisp LOOP License",
     id: "LOOP",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Lucent Public License Version 1.0": {
+  "LPL-1.0": {
+    name: "Lucent Public License Version 1.0",
     id: "LPL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Lucent Public License v1.02": {
+  "LPL-1.02": {
+    name: "Lucent Public License v1.02",
     id: "LPL-1.02",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "LaTeX Project Public License v1.0": {
+  "LPPL-1.0": {
+    name: "LaTeX Project Public License v1.0",
     id: "LPPL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "LaTeX Project Public License v1.1": {
+  "LPPL-1.1": {
+    name: "LaTeX Project Public License v1.1",
     id: "LPPL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "LaTeX Project Public License v1.2": {
+  "LPPL-1.2": {
+    name: "LaTeX Project Public License v1.2",
     id: "LPPL-1.2",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "LaTeX Project Public License v1.3a": {
+  "LPPL-1.3a": {
+    name: "LaTeX Project Public License v1.3a",
     id: "LPPL-1.3a",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "LaTeX Project Public License v1.3c": {
+  "LPPL-1.3c": {
+    name: "LaTeX Project Public License v1.3c",
     id: "LPPL-1.3c",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "LZMA SDK License (versions 9.11 to 9.20)": {
+  lsof: {
+    name: "lsof License",
+    id: "lsof",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Lucida-Bitmap-Fonts": {
+    name: "Lucida Bitmap Fonts License",
+    id: "Lucida-Bitmap-Fonts",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "LZMA-SDK-9.11-to-9.20": {
+    name: "LZMA SDK License (versions 9.11 to 9.20)",
     id: "LZMA-SDK-9.11-to-9.20",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "LZMA SDK License (versions 9.22 and beyond)": {
+  "LZMA-SDK-9.22": {
+    name: "LZMA SDK License (versions 9.22 and beyond)",
     id: "LZMA-SDK-9.22",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "MakeIndex License": {
+  magaz: {
+    name: "magaz License",
+    id: "magaz",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  MakeIndex: {
+    name: "MakeIndex License",
     id: "MakeIndex",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Minpack License": {
+  "Martin-Birgmeier": {
+    name: "Martin Birgmeier License",
+    id: "Martin-Birgmeier",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "McPhee-slideshow": {
+    name: "McPhee Slideshow License",
+    id: "McPhee-slideshow",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  metamail: {
+    name: "metamail License",
+    id: "metamail",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Minpack: {
+    name: "Minpack License",
     id: "Minpack",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "The MirOS Licence": {
+  MirOS: {
+    name: "The MirOS Licence",
     id: "MirOS",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "MIT License": {
+  MIT: {
+    name: "MIT License",
     id: "MIT",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "MIT No Attribution": {
+  "MIT-0": {
+    name: "MIT No Attribution",
     id: "MIT-0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Enlightenment License (e16)": {
+  "MIT-advertising": {
+    name: "Enlightenment License (e16)",
     id: "MIT-advertising",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "CMU License": {
+  "MIT-CMU": {
+    name: "CMU License",
     id: "MIT-CMU",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "enna License": {
+  "MIT-enna": {
+    name: "enna License",
     id: "MIT-enna",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "feh License": {
+  "MIT-feh": {
+    name: "feh License",
     id: "MIT-feh",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "MIT License Modern Variant": {
+  "MIT-Festival": {
+    name: "MIT Festival Variant",
+    id: "MIT-Festival",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "MIT-Modern-Variant": {
+    name: "MIT License Modern Variant",
     id: "MIT-Modern-Variant",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "MIT Open Group variant": {
+  "MIT-open-group": {
+    name: "MIT Open Group variant",
     id: "MIT-open-group",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "MIT Tom Wu Variant": {
+  "MIT-testregex": {
+    name: "MIT testregex Variant",
+    id: "MIT-testregex",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "MIT-Wu": {
+    name: "MIT Tom Wu Variant",
     id: "MIT-Wu",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "MIT +no-false-attribs license": {
+  MITNFA: {
+    name: "MIT +no-false-attribs license",
     id: "MITNFA",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Motosoto License": {
+  MMIXware: {
+    name: "MMIXware License",
+    id: "MMIXware",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Motosoto: {
+    name: "Motosoto License",
     id: "Motosoto",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "mpi Permissive License": {
+  "MPEG-SSG": {
+    name: "MPEG Software Simulation",
+    id: "MPEG-SSG",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "mpi-permissive": {
+    name: "mpi Permissive License",
     id: "mpi-permissive",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "mpich2 License": {
+  mpich2: {
+    name: "mpich2 License",
     id: "mpich2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Mozilla Public License 1.0": {
+  "MPL-1.0": {
+    name: "Mozilla Public License 1.0",
     id: "MPL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Mozilla Public License 1.1": {
+  "MPL-1.1": {
+    name: "Mozilla Public License 1.1",
     id: "MPL-1.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Mozilla Public License 2.0": {
+  "MPL-2.0": {
+    name: "Mozilla Public License 2.0",
     id: "MPL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Mozilla Public License 2.0 (no copyleft exception)": {
+  "MPL-2.0-no-copyleft-exception": {
+    name: "Mozilla Public License 2.0 (no copyleft exception)",
     id: "MPL-2.0-no-copyleft-exception",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "mplus Font License": {
+  mplus: {
+    name: "mplus Font License",
     id: "mplus",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Microsoft Limited Public License": {
+  "MS-LPL": {
+    name: "Microsoft Limited Public License",
     id: "MS-LPL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Microsoft Public License": {
+  "MS-PL": {
+    name: "Microsoft Public License",
     id: "MS-PL",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Microsoft Reciprocal License": {
+  "MS-RL": {
+    name: "Microsoft Reciprocal License",
     id: "MS-RL",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Matrix Template Library License": {
+  MTLL: {
+    name: "Matrix Template Library License",
     id: "MTLL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Mulan Permissive Software License, Version 1": {
+  "MulanPSL-1.0": {
+    name: "Mulan Permissive Software License, Version 1",
     id: "MulanPSL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Mulan Permissive Software License, Version 2": {
+  "MulanPSL-2.0": {
+    name: "Mulan Permissive Software License, Version 2",
     id: "MulanPSL-2.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Multics License": {
+  Multics: {
+    name: "Multics License",
     id: "Multics",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Mup License": {
+  Mup: {
+    name: "Mup License",
     id: "Mup",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Nara Institute of Science and Technology License (2003)": {
+  "NAIST-2003": {
+    name: "Nara Institute of Science and Technology License (2003)",
     id: "NAIST-2003",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "NASA Open Source Agreement 1.3": {
+  "NASA-1.3": {
+    name: "NASA Open Source Agreement 1.3",
     id: "NASA-1.3",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Naumen Public License": {
+  Naumen: {
+    name: "Naumen Public License",
     id: "Naumen",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Net Boolean Public License v1": {
+  "NBPL-1.0": {
+    name: "Net Boolean Public License v1",
     id: "NBPL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Non-Commercial Government Licence": {
+  "NCGL-UK-2.0": {
+    name: "Non-Commercial Government Licence",
     id: "NCGL-UK-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "University of Illinois/NCSA Open Source License": {
+  NCSA: {
+    name: "University of Illinois/NCSA Open Source License",
     id: "NCSA",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Net-SNMP License": {
+  "Net-SNMP": {
+    name: "Net-SNMP License",
     id: "Net-SNMP",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "NetCDF license": {
+  NetCDF: {
+    name: "NetCDF license",
     id: "NetCDF",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Newsletr License": {
+  Newsletr: {
+    name: "Newsletr License",
     id: "Newsletr",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Nethack General Public License": {
+  NGPL: {
+    name: "Nethack General Public License",
     id: "NGPL",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "NICTA Public Software License, Version 1.0": {
+  "NICTA-1.0": {
+    name: "NICTA Public Software License, Version 1.0",
     id: "NICTA-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "NIST Public Domain Notice": {
+  "NIST-PD": {
+    name: "NIST Public Domain Notice",
     id: "NIST-PD",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "NIST Public Domain Notice with license fallback": {
+  "NIST-PD-fallback": {
+    name: "NIST Public Domain Notice with license fallback",
     id: "NIST-PD-fallback",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Norwegian Licence for Open Government Data (NLOD) 1.0": {
+  "NIST-Software": {
+    name: "NIST Software License",
+    id: "NIST-Software",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "NLOD-1.0": {
+    name: "Norwegian Licence for Open Government Data (NLOD) 1.0",
     id: "NLOD-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Norwegian Licence for Open Government Data (NLOD) 2.0": {
+  "NLOD-2.0": {
+    name: "Norwegian Licence for Open Government Data (NLOD) 2.0",
     id: "NLOD-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "No Limit Public License": {
+  NLPL: {
+    name: "No Limit Public License",
     id: "NLPL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Nokia Open Source License": {
+  Nokia: {
+    name: "Nokia Open Source License",
     id: "Nokia",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Netizen Open Source License": {
+  NOSL: {
+    name: "Netizen Open Source License",
     id: "NOSL",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Noweb License": {
+  Noweb: {
+    name: "Noweb License",
     id: "Noweb",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Netscape Public License v1.0": {
+  "NPL-1.0": {
+    name: "Netscape Public License v1.0",
     id: "NPL-1.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Netscape Public License v1.1": {
+  "NPL-1.1": {
+    name: "Netscape Public License v1.1",
     id: "NPL-1.1",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Non-Profit Open Software License 3.0": {
+  "NPOSL-3.0": {
+    name: "Non-Profit Open Software License 3.0",
     id: "NPOSL-3.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "NRL License": {
+  NRL: {
+    name: "NRL License",
     id: "NRL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "NTP License": {
+  NTP: {
+    name: "NTP License",
     id: "NTP",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "NTP No Attribution": {
+  "NTP-0": {
+    name: "NTP No Attribution",
     id: "NTP-0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Nunit License": {
+  Nunit: {
+    name: "Nunit License",
     id: "Nunit",
     deprecated: true,
     osi: false,
     fsf: true
   },
-  "Open Use of Data Agreement v1.0": {
+  "O-UDA-1.0": {
+    name: "Open Use of Data Agreement v1.0",
     id: "O-UDA-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open CASCADE Technology Public License": {
+  "OCCT-PL": {
+    name: "Open CASCADE Technology Public License",
     id: "OCCT-PL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "OCLC Research Public License 2.0": {
+  "OCLC-2.0": {
+    name: "OCLC Research Public License 2.0",
     id: "OCLC-2.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Open Data Commons Open Database License v1.0": {
+  "ODbL-1.0": {
+    name: "Open Data Commons Open Database License v1.0",
     id: "ODbL-1.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Open Data Commons Attribution License v1.0": {
+  "ODC-By-1.0": {
+    name: "Open Data Commons Attribution License v1.0",
     id: "ODC-By-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SIL Open Font License 1.0": {
+  OFFIS: {
+    name: "OFFIS License",
+    id: "OFFIS",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "OFL-1.0": {
+    name: "SIL Open Font License 1.0",
     id: "OFL-1.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "SIL Open Font License 1.0 with no Reserved Font Name": {
+  "OFL-1.0-no-RFN": {
+    name: "SIL Open Font License 1.0 with no Reserved Font Name",
     id: "OFL-1.0-no-RFN",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SIL Open Font License 1.0 with Reserved Font Name": {
+  "OFL-1.0-RFN": {
+    name: "SIL Open Font License 1.0 with Reserved Font Name",
     id: "OFL-1.0-RFN",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SIL Open Font License 1.1": {
+  "OFL-1.1": {
+    name: "SIL Open Font License 1.1",
     id: "OFL-1.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "SIL Open Font License 1.1 with no Reserved Font Name": {
+  "OFL-1.1-no-RFN": {
+    name: "SIL Open Font License 1.1 with no Reserved Font Name",
     id: "OFL-1.1-no-RFN",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "SIL Open Font License 1.1 with Reserved Font Name": {
+  "OFL-1.1-RFN": {
+    name: "SIL Open Font License 1.1 with Reserved Font Name",
     id: "OFL-1.1-RFN",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "OGC Software License, Version 1.0": {
+  "OGC-1.0": {
+    name: "OGC Software License, Version 1.0",
     id: "OGC-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Taiwan Open Government Data License, version 1.0": {
+  "OGDL-Taiwan-1.0": {
+    name: "Taiwan Open Government Data License, version 1.0",
     id: "OGDL-Taiwan-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Government Licence - Canada": {
+  "OGL-Canada-2.0": {
+    name: "Open Government Licence - Canada",
     id: "OGL-Canada-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Government Licence v1.0": {
+  "OGL-UK-1.0": {
+    name: "Open Government Licence v1.0",
     id: "OGL-UK-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Government Licence v2.0": {
+  "OGL-UK-2.0": {
+    name: "Open Government Licence v2.0",
     id: "OGL-UK-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Government Licence v3.0": {
+  "OGL-UK-3.0": {
+    name: "Open Government Licence v3.0",
     id: "OGL-UK-3.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Group Test Suite License": {
+  OGTSL: {
+    name: "Open Group Test Suite License",
     id: "OGTSL",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Open LDAP Public License v1.1": {
+  "OLDAP-1.1": {
+    name: "Open LDAP Public License v1.1",
     id: "OLDAP-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v1.2": {
+  "OLDAP-1.2": {
+    name: "Open LDAP Public License v1.2",
     id: "OLDAP-1.2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v1.3": {
+  "OLDAP-1.3": {
+    name: "Open LDAP Public License v1.3",
     id: "OLDAP-1.3",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v1.4": {
+  "OLDAP-1.4": {
+    name: "Open LDAP Public License v1.4",
     id: "OLDAP-1.4",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B)": {
+  "OLDAP-2.0": {
+    name: "Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B)",
     id: "OLDAP-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.0.1": {
+  "OLDAP-2.0.1": {
+    name: "Open LDAP Public License v2.0.1",
     id: "OLDAP-2.0.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.1": {
+  "OLDAP-2.1": {
+    name: "Open LDAP Public License v2.1",
     id: "OLDAP-2.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.2": {
+  "OLDAP-2.2": {
+    name: "Open LDAP Public License v2.2",
     id: "OLDAP-2.2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.2.1": {
+  "OLDAP-2.2.1": {
+    name: "Open LDAP Public License v2.2.1",
     id: "OLDAP-2.2.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License 2.2.2": {
+  "OLDAP-2.2.2": {
+    name: "Open LDAP Public License 2.2.2",
     id: "OLDAP-2.2.2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.3": {
+  "OLDAP-2.3": {
+    name: "Open LDAP Public License v2.3",
     id: "OLDAP-2.3",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Open LDAP Public License v2.4": {
+  "OLDAP-2.4": {
+    name: "Open LDAP Public License v2.4",
     id: "OLDAP-2.4",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.5": {
+  "OLDAP-2.5": {
+    name: "Open LDAP Public License v2.5",
     id: "OLDAP-2.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.6": {
+  "OLDAP-2.6": {
+    name: "Open LDAP Public License v2.6",
     id: "OLDAP-2.6",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open LDAP Public License v2.7": {
+  "OLDAP-2.7": {
+    name: "Open LDAP Public License v2.7",
     id: "OLDAP-2.7",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Open LDAP Public License v2.8": {
+  "OLDAP-2.8": {
+    name: "Open LDAP Public License v2.8",
     id: "OLDAP-2.8",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Open Market License": {
+  "OLFL-1.3": {
+    name: "Open Logistics Foundation License Version 1.3",
+    id: "OLFL-1.3",
+    deprecated: false,
+    osi: true,
+    fsf: false
+  },
+  OML: {
+    name: "Open Market License",
     id: "OML",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "OpenSSL License": {
+  "OpenPBS-2.3": {
+    name: "OpenPBS v2.3 Software License",
+    id: "OpenPBS-2.3",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  OpenSSL: {
+    name: "OpenSSL License",
     id: "OpenSSL",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Open Public License v1.0": {
+  "OPL-1.0": {
+    name: "Open Public License v1.0",
     id: "OPL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Publication License v1.0": {
+  "OPL-UK-3.0": {
+    name: "United    Kingdom Open Parliament Licence v3.0",
+    id: "OPL-UK-3.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "OPUBL-1.0": {
+    name: "Open Publication License v1.0",
     id: "OPUBL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "OSET Public License version 2.1": {
+  "OSET-PL-2.1": {
+    name: "OSET Public License version 2.1",
     id: "OSET-PL-2.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Open Software License 1.0": {
+  "OSL-1.0": {
+    name: "Open Software License 1.0",
     id: "OSL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Open Software License 1.1": {
+  "OSL-1.1": {
+    name: "Open Software License 1.1",
     id: "OSL-1.1",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Open Software License 2.0": {
+  "OSL-2.0": {
+    name: "Open Software License 2.0",
     id: "OSL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Open Software License 2.1": {
+  "OSL-2.1": {
+    name: "Open Software License 2.1",
     id: "OSL-2.1",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Open Software License 3.0": {
+  "OSL-3.0": {
+    name: "Open Software License 3.0",
     id: "OSL-3.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "The Parity Public License 6.0.0": {
+  PADL: {
+    name: "PADL License",
+    id: "PADL",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Parity-6.0.0": {
+    name: "The Parity Public License 6.0.0",
     id: "Parity-6.0.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "The Parity Public License 7.0.0": {
+  "Parity-7.0.0": {
+    name: "The Parity Public License 7.0.0",
     id: "Parity-7.0.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Open Data Commons Public Domain Dedication & License 1.0": {
+  "PDDL-1.0": {
+    name: "Open Data Commons Public Domain Dedication & License 1.0",
     id: "PDDL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "PHP License v3.0": {
+  "PHP-3.0": {
+    name: "PHP License v3.0",
     id: "PHP-3.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "PHP License v3.01": {
+  "PHP-3.01": {
+    name: "PHP License v3.01",
     id: "PHP-3.01",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Plexus Classworlds License": {
+  Pixar: {
+    name: "Pixar License",
+    id: "Pixar",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Plexus: {
+    name: "Plexus Classworlds License",
     id: "Plexus",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "PolyForm Noncommercial License 1.0.0": {
+  pnmstitch: {
+    name: "pnmstitch License",
+    id: "pnmstitch",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "PolyForm-Noncommercial-1.0.0": {
+    name: "PolyForm Noncommercial License 1.0.0",
     id: "PolyForm-Noncommercial-1.0.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "PolyForm Small Business License 1.0.0": {
+  "PolyForm-Small-Business-1.0.0": {
+    name: "PolyForm Small Business License 1.0.0",
     id: "PolyForm-Small-Business-1.0.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "PostgreSQL License": {
+  PostgreSQL: {
+    name: "PostgreSQL License",
     id: "PostgreSQL",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Python Software Foundation License 2.0": {
+  "PSF-2.0": {
+    name: "Python Software Foundation License 2.0",
     id: "PSF-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "psfrag License": {
+  psfrag: {
+    name: "psfrag License",
     id: "psfrag",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "psutils License": {
+  psutils: {
+    name: "psutils License",
     id: "psutils",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Python License 2.0": {
+  "Python-2.0": {
+    name: "Python License 2.0",
     id: "Python-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Python License 2.0.1": {
+  "Python-2.0.1": {
+    name: "Python License 2.0.1",
     id: "Python-2.0.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Qhull License": {
+  "python-ldap": {
+    name: "Python ldap License",
+    id: "python-ldap",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Qhull: {
+    name: "Qhull License",
     id: "Qhull",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Q Public License 1.0": {
+  "QPL-1.0": {
+    name: "Q Public License 1.0",
     id: "QPL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Rdisc License": {
+  "QPL-1.0-INRIA-2004": {
+    name: "Q Public License 1.0 - INRIA 2004 variant",
+    id: "QPL-1.0-INRIA-2004",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Rdisc: {
+    name: "Rdisc License",
     id: "Rdisc",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Red Hat eCos Public License v1.1": {
+  "RHeCos-1.1": {
+    name: "Red Hat eCos Public License v1.1",
     id: "RHeCos-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Reciprocal Public License 1.1": {
+  "RPL-1.1": {
+    name: "Reciprocal Public License 1.1",
     id: "RPL-1.1",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Reciprocal Public License 1.5": {
+  "RPL-1.5": {
+    name: "Reciprocal Public License 1.5",
     id: "RPL-1.5",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "RealNetworks Public Source License v1.0": {
+  "RPSL-1.0": {
+    name: "RealNetworks Public Source License v1.0",
     id: "RPSL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "RSA Message-Digest License": {
+  "RSA-MD": {
+    name: "RSA Message-Digest License",
     id: "RSA-MD",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Ricoh Source Code Public License": {
+  RSCPL: {
+    name: "Ricoh Source Code Public License",
     id: "RSCPL",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Ruby License": {
+  Ruby: {
+    name: "Ruby License",
     id: "Ruby",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Sax Public Domain Notice": {
+  "SAX-PD": {
+    name: "Sax Public Domain Notice",
     id: "SAX-PD",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Saxpath License": {
+  Saxpath: {
+    name: "Saxpath License",
     id: "Saxpath",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SCEA Shared Source License": {
+  SCEA: {
+    name: "SCEA Shared Source License",
     id: "SCEA",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Scheme Language Report License": {
+  SchemeReport: {
+    name: "Scheme Language Report License",
     id: "SchemeReport",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Sendmail License": {
+  Sendmail: {
+    name: "Sendmail License",
     id: "Sendmail",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Sendmail License 8.23": {
+  "Sendmail-8.23": {
+    name: "Sendmail License 8.23",
     id: "Sendmail-8.23",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SGI Free Software License B v1.0": {
+  "SGI-B-1.0": {
+    name: "SGI Free Software License B v1.0",
     id: "SGI-B-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SGI Free Software License B v1.1": {
+  "SGI-B-1.1": {
+    name: "SGI Free Software License B v1.1",
     id: "SGI-B-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SGI Free Software License B v2.0": {
+  "SGI-B-2.0": {
+    name: "SGI Free Software License B v2.0",
     id: "SGI-B-2.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Solderpad Hardware License v0.5": {
+  "SGI-OpenGL": {
+    name: "SGI OpenGL License",
+    id: "SGI-OpenGL",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  SGP4: {
+    name: "SGP4 Permission Notice",
+    id: "SGP4",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "SHL-0.5": {
+    name: "Solderpad Hardware License v0.5",
     id: "SHL-0.5",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Solderpad Hardware License, Version 0.51": {
+  "SHL-0.51": {
+    name: "Solderpad Hardware License, Version 0.51",
     id: "SHL-0.51",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Simple Public License 2.0": {
+  "SimPL-2.0": {
+    name: "Simple Public License 2.0",
     id: "SimPL-2.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Sun Industry Standards Source License v1.1": {
+  SISSL: {
+    name: "Sun Industry Standards Source License v1.1",
     id: "SISSL",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Sun Industry Standards Source License v1.2": {
+  "SISSL-1.2": {
+    name: "Sun Industry Standards Source License v1.2",
     id: "SISSL-1.2",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Sleepycat License": {
+  SL: {
+    name: "SL License",
+    id: "SL",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Sleepycat: {
+    name: "Sleepycat License",
     id: "Sleepycat",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Standard ML of New Jersey License": {
-    id: "StandardML-NJ",
-    deprecated: true,
+  SMLNJ: {
+    name: "Standard ML of New Jersey License",
+    id: "SMLNJ",
+    deprecated: false,
     osi: false,
     fsf: true
   },
-  "Secure Messaging Protocol Public License": {
+  SMPPL: {
+    name: "Secure Messaging Protocol Public License",
     id: "SMPPL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SNIA Public License 1.1": {
+  SNIA: {
+    name: "SNIA Public License 1.1",
     id: "SNIA",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Spencer License 86": {
+  snprintf: {
+    name: "snprintf License",
+    id: "snprintf",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Soundex: {
+    name: "Soundex License",
+    id: "Soundex",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Spencer-86": {
+    name: "Spencer License 86",
     id: "Spencer-86",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Spencer License 94": {
+  "Spencer-94": {
+    name: "Spencer License 94",
     id: "Spencer-94",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Spencer License 99": {
+  "Spencer-99": {
+    name: "Spencer License 99",
     id: "Spencer-99",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Sun Public License v1.0": {
+  "SPL-1.0": {
+    name: "Sun Public License v1.0",
     id: "SPL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "SSH OpenSSH license": {
+  "ssh-keyscan": {
+    name: "ssh-keyscan License",
+    id: "ssh-keyscan",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "SSH-OpenSSH": {
+    name: "SSH OpenSSH license",
     id: "SSH-OpenSSH",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SSH short notice": {
+  "SSH-short": {
+    name: "SSH short notice",
     id: "SSH-short",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Server Side Public License, v 1": {
+  "SSPL-1.0": {
+    name: "Server Side Public License, v 1",
     id: "SSPL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "SugarCRM Public License v1.1.3": {
+  "StandardML-NJ": {
+    name: "Standard ML of New Jersey License",
+    id: "StandardML-NJ",
+    deprecated: true,
+    osi: false,
+    fsf: true
+  },
+  "SugarCRM-1.1.3": {
+    name: "SugarCRM Public License v1.1.3",
     id: "SugarCRM-1.1.3",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Scheme Widget Library (SWL) Software License Agreement": {
+  SunPro: {
+    name: "SunPro License",
+    id: "SunPro",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  SWL: {
+    name: "Scheme Widget Library (SWL) Software License Agreement",
     id: "SWL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Symlinks License": {
+  swrule: {
+    name: "swrule License",
+    id: "swrule",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Symlinks: {
+    name: "Symlinks License",
     id: "Symlinks",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "TAPR Open Hardware License v1.0": {
+  "TAPR-OHL-1.0": {
+    name: "TAPR Open Hardware License v1.0",
     id: "TAPR-OHL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "TCL/TK License": {
+  TCL: {
+    name: "TCL/TK License",
     id: "TCL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "TCP Wrappers License": {
+  "TCP-wrappers": {
+    name: "TCP Wrappers License",
     id: "TCP-wrappers",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "TMate Open Source License": {
+  TermReadKey: {
+    name: "TermReadKey License",
+    id: "TermReadKey",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  TMate: {
+    name: "TMate Open Source License",
     id: "TMate",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "TORQUE v2.5+ Software License v1.1": {
+  "TORQUE-1.1": {
+    name: "TORQUE v2.5+ Software License v1.1",
     id: "TORQUE-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Trusster Open Source License": {
+  TOSL: {
+    name: "Trusster Open Source License",
     id: "TOSL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Time::ParseDate License": {
+  TPDL: {
+    name: "Time::ParseDate License",
     id: "TPDL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Text-Tabs+Wrap License": {
+  "TPL-1.0": {
+    name: "THOR Public License 1.0",
+    id: "TPL-1.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  TTWL: {
+    name: "Text-Tabs+Wrap License",
     id: "TTWL",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Technische Universitaet Berlin License 1.0": {
+  TTYP0: {
+    name: "TTYP0 License",
+    id: "TTYP0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "TU-Berlin-1.0": {
+    name: "Technische Universitaet Berlin License 1.0",
     id: "TU-Berlin-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Technische Universitaet Berlin License 2.0": {
+  "TU-Berlin-2.0": {
+    name: "Technische Universitaet Berlin License 2.0",
     id: "TU-Berlin-2.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Upstream Compatibility License v1.0": {
+  UCAR: {
+    name: "UCAR License",
+    id: "UCAR",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "UCL-1.0": {
+    name: "Upstream Compatibility License v1.0",
     id: "UCL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Unicode License Agreement - Data Files and Software (2015)": {
+  ulem: {
+    name: "ulem License",
+    id: "ulem",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Unicode-DFS-2015": {
+    name: "Unicode License Agreement - Data Files and Software (2015)",
     id: "Unicode-DFS-2015",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Unicode License Agreement - Data Files and Software (2016)": {
+  "Unicode-DFS-2016": {
+    name: "Unicode License Agreement - Data Files and Software (2016)",
     id: "Unicode-DFS-2016",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Unicode Terms of Use": {
+  "Unicode-TOU": {
+    name: "Unicode Terms of Use",
     id: "Unicode-TOU",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "The Unlicense": {
+  UnixCrypt: {
+    name: "UnixCrypt License",
+    id: "UnixCrypt",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Unlicense: {
+    name: "The Unlicense",
     id: "Unlicense",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Universal Permissive License v1.0": {
+  "UPL-1.0": {
+    name: "Universal Permissive License v1.0",
     id: "UPL-1.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Vim License": {
+  "URT-RLE": {
+    name: "Utah Raster Toolkit Run Length Encoded License",
+    id: "URT-RLE",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Vim: {
+    name: "Vim License",
     id: "Vim",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "VOSTROM Public License for Open Source": {
+  VOSTROM: {
+    name: "VOSTROM Public License for Open Source",
     id: "VOSTROM",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Vovida Software License v1.0": {
+  "VSL-1.0": {
+    name: "Vovida Software License v1.0",
     id: "VSL-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "W3C Software Notice and License (2002-12-31)": {
+  W3C: {
+    name: "W3C Software Notice and License (2002-12-31)",
     id: "W3C",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "W3C Software Notice and License (1998-07-20)": {
+  "W3C-19980720": {
+    name: "W3C Software Notice and License (1998-07-20)",
     id: "W3C-19980720",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "W3C Software Notice and Document License (2015-05-13)": {
+  "W3C-20150513": {
+    name: "W3C Software Notice and Document License (2015-05-13)",
     id: "W3C-20150513",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Sybase Open Watcom Public License 1.0": {
+  w3m: {
+    name: "w3m License",
+    id: "w3m",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Watcom-1.0": {
+    name: "Sybase Open Watcom Public License 1.0",
     id: "Watcom-1.0",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "Wsuipa License": {
+  "Widget-Workshop": {
+    name: "Widget Workshop License",
+    id: "Widget-Workshop",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Wsuipa: {
+    name: "Wsuipa License",
     id: "Wsuipa",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Do What The F*ck You Want To Public License": {
+  WTFPL: {
+    name: "Do What The F*ck You Want To Public License",
     id: "WTFPL",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "wxWindows Library License": {
+  wxWindows: {
+    name: "wxWindows Library License",
     id: "wxWindows",
     deprecated: true,
     osi: true,
     fsf: false
   },
-  "X11 License": {
+  X11: {
+    name: "X11 License",
     id: "X11",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "X11 License Distribution Modification Variant": {
+  "X11-distribute-modifications-variant": {
+    name: "X11 License Distribution Modification Variant",
     id: "X11-distribute-modifications-variant",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Xerox License": {
+  "Xdebug-1.03": {
+    name: "Xdebug License v 1.03",
+    id: "Xdebug-1.03",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Xerox: {
+    name: "Xerox License",
     id: "Xerox",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "XFree86 License 1.1": {
+  Xfig: {
+    name: "Xfig License",
+    id: "Xfig",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "XFree86-1.1": {
+    name: "XFree86 License 1.1",
     id: "XFree86-1.1",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "xinetd License": {
+  xinetd: {
+    name: "xinetd License",
     id: "xinetd",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "X.Net License": {
+  xlock: {
+    name: "xlock License",
+    id: "xlock",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Xnet: {
+    name: "X.Net License",
     id: "Xnet",
     deprecated: false,
     osi: true,
     fsf: false
   },
-  "XPP License": {
+  xpp: {
+    name: "XPP License",
     id: "xpp",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "XSkat License": {
+  XSkat: {
+    name: "XSkat License",
     id: "XSkat",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Yahoo! Public License v1.0": {
+  "YPL-1.0": {
+    name: "Yahoo! Public License v1.0",
     id: "YPL-1.0",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Yahoo! Public License v1.1": {
+  "YPL-1.1": {
+    name: "Yahoo! Public License v1.1",
     id: "YPL-1.1",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Zed License": {
+  Zed: {
+    name: "Zed License",
     id: "Zed",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Zend License v2.0": {
+  Zeeff: {
+    name: "Zeeff License",
+    id: "Zeeff",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Zend-2.0": {
+    name: "Zend License v2.0",
     id: "Zend-2.0",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Zimbra Public License v1.3": {
+  "Zimbra-1.3": {
+    name: "Zimbra Public License v1.3",
     id: "Zimbra-1.3",
     deprecated: false,
     osi: false,
     fsf: true
   },
-  "Zimbra Public License v1.4": {
+  "Zimbra-1.4": {
+    name: "Zimbra Public License v1.4",
     id: "Zimbra-1.4",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "zlib License": {
+  Zlib: {
+    name: "zlib License",
     id: "Zlib",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "zlib/libpng License with Acknowledgement": {
+  "zlib-acknowledgement": {
+    name: "zlib/libpng License with Acknowledgement",
     id: "zlib-acknowledgement",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Zope Public License 1.1": {
+  "ZPL-1.1": {
+    name: "Zope Public License 1.1",
     id: "ZPL-1.1",
     deprecated: false,
     osi: false,
     fsf: false
   },
-  "Zope Public License 2.0": {
+  "ZPL-2.0": {
+    name: "Zope Public License 2.0",
     id: "ZPL-2.0",
     deprecated: false,
     osi: true,
     fsf: true
   },
-  "Zope Public License 2.1": {
+  "ZPL-2.1": {
+    name: "Zope Public License 2.1",
     id: "ZPL-2.1",
     deprecated: false,
     osi: true,
     fsf: true
   }
-}
+};
