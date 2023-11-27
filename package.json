@@ -37,7 +37,7 @@
     "spdx-expression-parse": "^3.0.1"
   },
   "devDependencies": {
-    "@myunisoft/httpie": "^1.10.0",
+    "@myunisoft/httpie": "^2.0.3",
     "@nodesecure/eslint-config": "^1.6.0",
     "@small-tech/esm-tape-runner": "^2.0.0",
     "@small-tech/tap-monkey": "^1.4.0",
