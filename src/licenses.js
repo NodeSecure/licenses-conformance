@@ -13,17 +13,17 @@ const osi = [];
 const fsf = [];
 const deprecated = [];
 
-for (const [licenseName, license] of Object.entries(spdx)) {
+for (const [licenseId, license] of Object.entries(spdx)) {
   if (license.deprecated) {
-    deprecated.push(license.id);
+    deprecated.push(licenseId);
   }
   if (license.osi) {
-    osi.push(license.id);
+    osi.push(licenseId);
   }
   if (license.fsf) {
-    fsf.push(license.id);
+    fsf.push(licenseId);
   }
-  licenseNameToId.set(licenseName, license);
+  licenseNameToId.set(license.name, license);
 }
 
 const spdxLicenseIds = new Set([
