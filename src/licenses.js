@@ -1,12 +1,8 @@
-// Import Node.js Dependencies
-import fs from "node:fs/promises";
-
 // Import Third-party Dependencies
 import * as levenshtein from "fastest-levenshtein";
 
-const spdx = JSON.parse(
-  await fs.readFile(new URL("./spdx.json", import.meta.url))
-);
+// Import Internal Dependencies
+import { spdx } from "./spdx.js";
 
 // CONSTANTS
 const kMaximumLicenseDistance = 1;
