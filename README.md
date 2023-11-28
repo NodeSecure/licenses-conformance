@@ -71,7 +71,7 @@ function searchSpdxLicenseId(contentStr: string): string | null;
 
 ## Updating SPDX licenses
 
-To update the `src/spdx.json` file just run the following npm script:
+To update the `src/spdx.js` file just run the following npm script:
 
 ```bash
 $ npm run spdx:refresh
