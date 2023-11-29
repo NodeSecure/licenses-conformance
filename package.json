@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint index.js",
-    "test-only": "cross-env esm-tape-runner 'tests/**/*.test.js' | tap-monkey",
+    "test-only": "node --test",
     "test": "npm run lint && npm run test-only",
     "coverage": "c8 -r html npm test",
     "spdx:refresh": "node ./scripts/fetchSpdxLicenses.js"
@@ -39,14 +39,10 @@
   "devDependencies": {
     "@myunisoft/httpie": "^2.0.3",
     "@nodesecure/eslint-config": "^1.8.0",
-    "@small-tech/esm-tape-runner": "^2.0.0",
-    "@small-tech/tap-monkey": "^1.4.0",
     "astring": "^1.8.6",
     "c8": "^8.0.1",
-    "cross-env": "^7.0.3",
     "eslint": "^8.31.0",
-    "node-estree": "^4.0.0",
-    "tape": "^5.7.2"
+    "node-estree": "^4.0.0"
   },
   "engines": {
     "node": ">=18"
