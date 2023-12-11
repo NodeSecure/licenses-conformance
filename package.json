@@ -37,7 +37,7 @@
     "spdx-expression-parse": "^4.0.0"
   },
   "devDependencies": {
-    "@myunisoft/httpie": "^2.0.3",
+    "@myunisoft/httpie": "^3.0.0",
     "@nodesecure/eslint-config": "^1.8.0",
     "astring": "^1.8.6",
     "c8": "^8.0.1",
