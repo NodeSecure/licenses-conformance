@@ -40,7 +40,7 @@
     "@myunisoft/httpie": "^2.0.3",
     "@nodesecure/eslint-config": "^1.8.0",
     "astring": "^1.8.6",
-    "c8": "^8.0.1",
+    "c8": "^9.0.0",
     "eslint": "^8.31.0",
     "node-estree": "^4.0.0"
   },
