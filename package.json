@@ -41,7 +41,7 @@
     "@nodesecure/eslint-config": "^1.8.0",
     "astring": "^1.8.6",
     "c8": "^9.1.0",
-    "eslint": "^8.31.0",
+    "eslint": "^9.1.1",
     "node-estree": "^4.0.0"
   },
   "engines": {
