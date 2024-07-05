@@ -11,7 +11,7 @@ NodeSecure [SPDX licenses](https://spdx.org/licenses/) conformance. Project fork
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) v18 or higher
+- [Node.js](https://nodejs.org/en/) v20 or higher
 
 ## Getting Started
 
@@ -30,10 +30,9 @@ $ yarn add @nodesecure/licenses-conformance
 ```js
 import { licenseIdConformance } from "@nodesecure/licenses-conformance";
 
-const result = licenseIdConformance("MIT");
-if (result.ok) {
-  console.log(result.value);
-}
+const conformance = licenseIdConformance("MIT").unwrap();
+console.log(conformance);
+
 /*  
   {
     uniqueLicenseIds: ["MIT"],
@@ -51,10 +50,9 @@ if (result.ok) {
 ## API
 
 ```ts
-interface spdxLicenseConformance {
-  uniqueLicenseIds: string[];
-  spdxLicenseLinks: string[];
-  spdx?: {
+export interface SpdxLicenseConformance {
+  licenses: Record<string, string>
+  spdx: {
     osi: boolean;
     fsf: boolean;
     fsfAndOsi: boolean;
@@ -64,14 +62,14 @@ interface spdxLicenseConformance {
 
 function licenseIdConformance(
   licenseID: string
-): { ok: true, value: spdxLicenseConformance } | { ok: false, value: Error };
+): Result<SpdxLicenseConformance, Error>;
 
 function searchSpdxLicenseId(contentStr: string): string | null;
 ```
 
 ## Updating SPDX licenses
 
-To update the `src/spdx.js` file just run the following npm script:
+To update the `src/data/spdx.ts` file just run the following npm script:
 
 ```bash
 $ npm run spdx:refresh

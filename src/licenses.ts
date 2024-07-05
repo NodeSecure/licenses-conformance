@@ -2,16 +2,24 @@
 import * as levenshtein from "fastest-levenshtein";
 
 // Import Internal Dependencies
-import { spdx } from "./spdx.js";
+import { spdx } from "./data/spdx.js";
+
+export interface SpdxConformance {
+  name: string;
+  id: string;
+  deprecated: boolean;
+  osi: boolean;
+  fsf: boolean;
+}
 
 // CONSTANTS
 const kMaximumLicenseDistance = 1;
-const kLevenshteinCache = new Map();
+const kLevenshteinCache = new Map<string, string>();
 
-const licenseNameToId = new Map();
-const osi = [];
-const fsf = [];
-const deprecated = [];
+const licenseNameToId = new Map<string, SpdxConformance>();
+const osi: string[] = [];
+const fsf: string[] = [];
+const deprecated: string[] = [];
 
 for (const [licenseId, license] of Object.entries(spdx)) {
   if (license.deprecated) {
@@ -32,12 +40,11 @@ const spdxLicenseIds = new Set([
   ...osi
 ]);
 
-/**
- * @param {!string} licenseID
- */
-export function closestSpdxLicenseID(licenseID) {
+export function closestSpdxLicenseID(
+  licenseID: string
+): string {
   if (kLevenshteinCache.has(licenseID)) {
-    return kLevenshteinCache.get(licenseID);
+    return kLevenshteinCache.get(licenseID)!;
   }
 
   for (const iteratedLicenseId of spdxLicenseIds) {
@@ -52,4 +59,10 @@ export function closestSpdxLicenseID(licenseID) {
   return licenseID;
 }
 
-export { osi, fsf, deprecated, licenseNameToId, spdxLicenseIds };
+export {
+  osi,
+  fsf,
+  deprecated,
+  licenseNameToId,
+  spdxLicenseIds
+};

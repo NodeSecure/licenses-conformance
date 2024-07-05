@@ -3,7 +3,7 @@ import { test } from "node:test";
 import assert from "node:assert";
 
 // Import Internal Dependencies
-import { searchSpdxLicenseId } from "../index.js";
+import { searchSpdxLicenseId } from "../src/index.js";
 
 test("search for Apache 2.0 license", () => {
   const result = searchSpdxLicenseId("Apache License 2.0");

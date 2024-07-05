@@ -8,6 +8,13 @@ export const spdx = {
     osi: true,
     fsf: false
   },
+  "3D-Slicer-1.0": {
+    name: "3D Slicer License v1.0",
+    id: "3D-Slicer-1.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   AAL: {
     name: "Attribution Assurance License",
     id: "AAL",
@@ -155,6 +162,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "AMD-newlib": {
+    name: "AMD newlib License",
+    id: "AMD-newlib",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   AMDPLPA: {
     name: "AMD's plpa_map.c License",
     id: "AMDPLPA",
@@ -193,6 +207,13 @@ export const spdx = {
   "ANTLR-PD-fallback": {
     name: "ANTLR Software Rights Notice with license fallback",
     id: "ANTLR-PD-fallback",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "any-OSI": {
+    name: "Any OSI License",
+    id: "any-OSI",
     deprecated: false,
     osi: false,
     fsf: false
@@ -337,6 +358,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "bcrypt-Solar-Designer": {
+    name: "bcrypt Solar Designer License",
+    id: "bcrypt-Solar-Designer",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   Beerware: {
     name: "Beerware License",
     id: "Beerware",
@@ -383,7 +411,7 @@ export const spdx = {
     name: "Blue Oak Model License 1.0.0",
     id: "BlueOak-1.0.0",
     deprecated: false,
-    osi: false,
+    osi: true,
     fsf: false
   },
   "Boehm-GC": {
@@ -396,6 +424,13 @@ export const spdx = {
   Borceux: {
     name: "Borceux license",
     id: "Borceux",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Brian-Gladman-2-Clause": {
+    name: "Brian Gladman 2-Clause License",
+    id: "Brian-Gladman-2-Clause",
     deprecated: false,
     osi: false,
     fsf: false
@@ -420,6 +455,20 @@ export const spdx = {
     deprecated: false,
     osi: true,
     fsf: true
+  },
+  "BSD-2-Clause-Darwin": {
+    name: "BSD 2-Clause - Ian Darwin variant",
+    id: "BSD-2-Clause-Darwin",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-2-Clause-first-lines": {
+    name: "BSD 2-Clause - first lines requirement",
+    id: "BSD-2-Clause-first-lines",
+    deprecated: false,
+    osi: false,
+    fsf: false
   },
   "BSD-2-Clause-FreeBSD": {
     name: "BSD 2-Clause FreeBSD License",
@@ -455,6 +504,13 @@ export const spdx = {
     deprecated: false,
     osi: true,
     fsf: true
+  },
+  "BSD-3-Clause-acpica": {
+    name: "BSD 3-Clause acpica variant",
+    id: "BSD-3-Clause-acpica",
+    deprecated: false,
+    osi: false,
+    fsf: false
   },
   "BSD-3-Clause-Attribution": {
     name: "BSD with attribution",
@@ -603,6 +659,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "BSD-Source-beginning-file": {
+    name: "BSD Source Code Attribution - beginning of file variant",
+    id: "BSD-Source-beginning-file",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "BSD-Source-Code": {
     name: "BSD Source Code Attribution",
     id: "BSD-Source-Code",
@@ -613,6 +676,13 @@ export const spdx = {
   "BSD-Systemics": {
     name: "Systemics BSD variant license",
     id: "BSD-Systemics",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "BSD-Systemics-W3Works": {
+    name: "Systemics W3Works BSD variant license",
+    id: "BSD-Systemics-W3Works",
     deprecated: false,
     osi: false,
     fsf: false
@@ -673,6 +743,20 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "Caldera-no-preamble": {
+    name: "Caldera License (without preamble)",
+    id: "Caldera-no-preamble",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Catharon: {
+    name: "Catharon License",
+    id: "Catharon",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "CATOSL-1.1": {
     name: "Computer Associates Trusted Open Source License 1.1",
     id: "CATOSL-1.1",
@@ -718,6 +802,13 @@ export const spdx = {
   "CC-BY-3.0-AT": {
     name: "Creative Commons Attribution 3.0 Austria",
     id: "CC-BY-3.0-AT",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "CC-BY-3.0-AU": {
+    name: "Creative Commons Attribution 3.0 Australia",
+    id: "CC-BY-3.0-AU",
     deprecated: false,
     osi: false,
     fsf: false
@@ -1205,6 +1296,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "CMU-Mach-nodoc": {
+    name: "CMU    Mach - no notices-in-documentation variant",
+    id: "CMU-Mach-nodoc",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "CNRI-Jython": {
     name: "CNRI Jython License",
     id: "CNRI-Jython",
@@ -1327,6 +1425,13 @@ export const spdx = {
   curl: {
     name: "curl License",
     id: "curl",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "cve-tou": {
+    name: "Common Vulnerability Enumeration ToU License",
+    id: "cve-tou",
     deprecated: false,
     osi: false,
     fsf: false
@@ -1596,6 +1701,13 @@ export const spdx = {
     deprecated: false,
     osi: false,
     fsf: true
+  },
+  "FSFAP-no-warranty-disclaimer": {
+    name: "FSF All Permissive License (without Warranty)",
+    id: "FSFAP-no-warranty-disclaimer",
+    deprecated: false,
+    osi: false,
+    fsf: false
   },
   FSFUL: {
     name: "FSF Unlimited License",
@@ -1989,6 +2101,20 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  gtkbook: {
+    name: "gtkbook License",
+    id: "gtkbook",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  Gutmann: {
+    name: "Gutmann License",
+    id: "Gutmann",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   HaskellReport: {
     name: "Haskell Language Report License",
     id: "HaskellReport",
@@ -2059,6 +2185,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "HPND-export-US-acknowledgement": {
+    name: "HPND with US Government export control warning and acknowledgment",
+    id: "HPND-export-US-acknowledgement",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "HPND-export-US-modify": {
     name: "HPND with US Government export control warning and modification rqmt",
     id: "HPND-export-US-modify",
@@ -2066,9 +2199,58 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "HPND-export2-US": {
+    name: "HPND with US Government export control and 2 disclaimers",
+    id: "HPND-export2-US",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-Fenneberg-Livingston": {
+    name: "Historical Permission Notice and Disclaimer - Fenneberg-Livingston variant",
+    id: "HPND-Fenneberg-Livingston",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-INRIA-IMAG": {
+    name: "Historical Permission Notice and Disclaimer    - INRIA-IMAG variant",
+    id: "HPND-INRIA-IMAG",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-Intel": {
+    name: "Historical Permission Notice and Disclaimer - Intel variant",
+    id: "HPND-Intel",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-Kevlin-Henney": {
+    name: "Historical Permission Notice and Disclaimer - Kevlin Henney variant",
+    id: "HPND-Kevlin-Henney",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "HPND-Markus-Kuhn": {
     name: "Historical Permission Notice and Disclaimer - Markus Kuhn variant",
     id: "HPND-Markus-Kuhn",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-merchantability-variant": {
+    name: "Historical Permission Notice and Disclaimer - merchantability variant",
+    id: "HPND-merchantability-variant",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-MIT-disclaimer": {
+    name: "Historical Permission Notice and Disclaimer with MIT disclaimer",
+    id: "HPND-MIT-disclaimer",
     deprecated: false,
     osi: false,
     fsf: false
@@ -2108,9 +2290,23 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "HPND-sell-variant-MIT-disclaimer-rev": {
+    name: "HPND sell variant with MIT disclaimer - reverse",
+    id: "HPND-sell-variant-MIT-disclaimer-rev",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "HPND-UC": {
     name: "Historical Permission Notice and Disclaimer - University of California variant",
     id: "HPND-UC",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "HPND-UC-export-US": {
+    name: "Historical Permission Notice and Disclaimer - University of California, US export warning",
+    id: "HPND-UC-export-US",
     deprecated: false,
     osi: false,
     fsf: false
@@ -2233,6 +2429,13 @@ export const spdx = {
     deprecated: false,
     osi: true,
     fsf: true
+  },
+  "ISC-Veillard": {
+    name: "ISC Veillard variant",
+    id: "ISC-Veillard",
+    deprecated: false,
+    osi: false,
+    fsf: false
   },
   Jam: {
     name: "Jam License",
@@ -2514,6 +2717,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "LPD-document": {
+    name: "LPD Documentation License",
+    id: "LPD-document",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "LPL-1.0": {
     name: "Lucent Public License Version 1.0",
     id: "LPL-1.0",
@@ -2591,9 +2801,30 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "Mackerras-3-Clause": {
+    name: "Mackerras 3-Clause License",
+    id: "Mackerras-3-Clause",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Mackerras-3-Clause-acknowledgment": {
+    name: "Mackerras 3-Clause - acknowledgment variant",
+    id: "Mackerras-3-Clause-acknowledgment",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   magaz: {
     name: "magaz License",
     id: "magaz",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  mailprio: {
+    name: "mailprio License",
+    id: "mailprio",
     deprecated: false,
     osi: false,
     fsf: false
@@ -2685,6 +2916,13 @@ export const spdx = {
   "MIT-Festival": {
     name: "MIT Festival Variant",
     id: "MIT-Festival",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "MIT-Khronos-old": {
+    name: "MIT Khronos - old variant",
+    id: "MIT-Khronos-old",
     deprecated: false,
     osi: false,
     fsf: false
@@ -2878,9 +3116,23 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "NCBI-PD": {
+    name: "NCBI Public Domain Notice",
+    id: "NCBI-PD",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "NCGL-UK-2.0": {
     name: "Non-Commercial Government Licence",
     id: "NCGL-UK-2.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  NCL: {
+    name: "NCL Source Code License",
+    id: "NCL",
     deprecated: false,
     osi: false,
     fsf: false
@@ -3042,6 +3294,13 @@ export const spdx = {
   "O-UDA-1.0": {
     name: "Open Use of Data Agreement v1.0",
     id: "O-UDA-1.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  OAR: {
+    name: "OAR License",
+    id: "OAR",
     deprecated: false,
     osi: false,
     fsf: false
@@ -3312,6 +3571,20 @@ export const spdx = {
     osi: false,
     fsf: true
   },
+  "OpenSSL-standalone": {
+    name: "OpenSSL License - standalone",
+    id: "OpenSSL-standalone",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  OpenVision: {
+    name: "OpenVision License",
+    id: "OpenVision",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "OPL-1.0": {
     name: "Open Public License v1.0",
     id: "OPL-1.0",
@@ -3424,6 +3697,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  pkgconf: {
+    name: "pkgconf License",
+    id: "pkgconf",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   Plexus: {
     name: "Plexus Classworlds License",
     id: "Plexus",
@@ -3457,6 +3737,13 @@ export const spdx = {
     id: "PostgreSQL",
     deprecated: false,
     osi: true,
+    fsf: false
+  },
+  PPL: {
+    name: "Peer Production License",
+    id: "PPL",
+    deprecated: false,
+    osi: false,
     fsf: false
   },
   "PSF-2.0": {
@@ -3522,6 +3809,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  radvd: {
+    name: "radvd License",
+    id: "radvd",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   Rdisc: {
     name: "Rdisc License",
     id: "Rdisc",
@@ -3581,6 +3875,13 @@ export const spdx = {
   "SAX-PD": {
     name: "Sax Public Domain Notice",
     id: "SAX-PD",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "SAX-PD-2.0": {
+    name: "Sax Public Domain Notice 2.0",
+    id: "SAX-PD-2.0",
     deprecated: false,
     osi: false,
     fsf: false
@@ -3732,6 +4033,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  softSurfer: {
+    name: "softSurfer License",
+    id: "softSurfer",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   Soundex: {
     name: "Soundex License",
     id: "Soundex",
@@ -3788,6 +4096,13 @@ export const spdx = {
     osi: false,
     fsf: false
   },
+  "SSLeay-standalone": {
+    name: "SSLeay License - standalone",
+    id: "SSLeay-standalone",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   "SSPL-1.0": {
     name: "Server Side Public License, v 1",
     id: "SSPL-1.0",
@@ -3805,6 +4120,20 @@ export const spdx = {
   "SugarCRM-1.1.3": {
     name: "SugarCRM Public License v1.1.3",
     id: "SugarCRM-1.1.3",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Sun-PPP": {
+    name: "Sun PPP License",
+    id: "Sun-PPP",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Sun-PPP-2000": {
+    name: "Sun PPP License (2000)",
+    id: "Sun-PPP-2000",
     deprecated: false,
     osi: false,
     fsf: false
@@ -3861,6 +4190,20 @@ export const spdx = {
   TermReadKey: {
     name: "TermReadKey License",
     id: "TermReadKey",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "TGPPL-1.0": {
+    name: "Transitive Grace Period Public Licence 1.0",
+    id: "TGPPL-1.0",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  threeparttable: {
+    name: "threeparttable License",
+    id: "threeparttable",
     deprecated: false,
     osi: false,
     fsf: false
@@ -3947,6 +4290,20 @@ export const spdx = {
     id: "ulem",
     deprecated: false,
     osi: false,
+    fsf: false
+  },
+  "UMich-Merit": {
+    name: "Michigan/Merit Networks License",
+    id: "UMich-Merit",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  "Unicode-3.0": {
+    name: "Unicode License v3",
+    id: "Unicode-3.0",
+    deprecated: false,
+    osi: true,
     fsf: false
   },
   "Unicode-DFS-2015": {
@@ -4131,6 +4488,13 @@ export const spdx = {
     osi: false,
     fsf: true
   },
+  "xkeyboard-config-Zinoviev": {
+    name: "xkeyboard-config Zinoviev License",
+    id: "xkeyboard-config-Zinoviev",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
   xlock: {
     name: "xlock License",
     id: "xlock",
@@ -4155,6 +4519,13 @@ export const spdx = {
   XSkat: {
     name: "XSkat License",
     id: "XSkat",
+    deprecated: false,
+    osi: false,
+    fsf: false
+  },
+  xzoom: {
+    name: "xzoom License",
+    id: "xzoom",
     deprecated: false,
     osi: false,
     fsf: false
