@@ -7,7 +7,7 @@ import * as astring from "astring";
 import { ESTree, Helpers, VarDeclaration } from "node-estree";
 
 // CONSTANTS
-const kSrcDirectory = new URL("../src/", import.meta.url);
+const kSrcDirectory = new URL("../src/data/", import.meta.url);
 
 const { data } = await httpie.get(
   "https://raw.githubusercontent.com/spdx/license-list-data/main/json/licenses.json"
@@ -46,6 +46,6 @@ const prog = ESTree.Program("module", [
 ]);
 
 fs.writeFileSync(
-  new URL("spdx.js", kSrcDirectory),
+  new URL("spdx.ts", kSrcDirectory),
   `/* eslint-disable max-lines */\n\n` + astring.generate(prog)
 );

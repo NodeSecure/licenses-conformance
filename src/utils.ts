@@ -1,19 +1,27 @@
 // Import Internal Dependencies
 import { osi, deprecated, fsf } from "./licenses.js";
 
-export function checkEveryTruthy(...arrayOfBooleans) {
+export function checkEveryTruthy(
+  ...arrayOfBooleans: boolean[]
+): boolean {
   return arrayOfBooleans.every((check) => check);
 }
 
-export function checkSomeTruthy(...arrayOfBooleans) {
+export function checkSomeTruthy(
+  ...arrayOfBooleans: boolean[]
+): boolean {
   return arrayOfBooleans.some((check) => check);
 }
 
-export function createSpdxLink(license) {
+export function createSpdxLink(
+  license: string
+): string {
   return `https://spdx.org/licenses/${license}.html#licenseText`;
 }
 
-export function checkSpdx(licenseToCheck) {
+export function checkSpdx(
+  licenseToCheck: string
+) {
   return {
     osi: osi.includes(licenseToCheck),
     fsf: fsf.includes(licenseToCheck),
