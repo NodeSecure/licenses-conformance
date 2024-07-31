@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This project has been migrated to scanner monorepo
+
 # SPDX Licenses conformance
 
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/licenses-conformance/master/package.json&query=$.version&label=Version)
